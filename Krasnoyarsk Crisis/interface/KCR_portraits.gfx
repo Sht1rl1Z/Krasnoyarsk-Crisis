@@ -1,0 +1,26 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_KCR_edkham_akbulatov"
+		texturefile = "gfx/leaders/KCR/Edkham_Akbulatov.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_KCR_lev_kuznetsov"
+		texturefile = "gfx/leaders/KCR/Lev_Kuznetsov.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_KCR_viktor_tolokonsky"
+		texturefile = "gfx/leaders/KCR/Viktor_Tolokonsky.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_KCR_valery_sergienko"
+		texturefile = "gfx/leaders/KCR/Valery_Sergienko.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_KCR_denis_pobilat"
+		texturefile = "gfx/leaders/KCR/Denis_Pobilat.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_KCR_nikolay_trikman"
+		texturefile = "gfx/leaders/KCR/Nikolay_Trikman.dds"
+	}
+}

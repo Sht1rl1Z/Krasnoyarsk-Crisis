@@ -1,0 +1,439 @@
+focus_tree = {
+    id = KSR_edro_reg_tree
+
+    country = {
+        factor = 0
+        modifier = { add = 100 tag = KCR }
+    }
+    default = no
+
+    focus = {
+        id = KCR_reggov_emergency_council
+        icon = GFX_goal_generic_political_reform
+        x = 8
+        y = 0
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            add_political_power = 75
+                        set_country_flag = KCR_reggov_program_started
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_open_register
+        icon = GFX_goal_generic_political_reform
+        x = 8
+        y = 1
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = {
+            focus = KCR_reggov_emergency_council
+        }
+        completion_reward = {
+            add_political_power = 35
+                        add_stability = 0.03
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_public_hearings
+        icon = GFX_goal_generic_political_reform
+        x = 8
+        y = 2
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = {
+            focus = KCR_reggov_open_register
+        }
+        completion_reward = {
+            add_stability = 0.04
+                        add_political_power = 25
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_mandate_choice
+        icon = GFX_goal_generic_political_reform
+        x = 8
+        y = 3
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = {
+            focus = KCR_reggov_public_hearings
+        }
+        completion_reward = {
+            set_country_flag = KCR_reggov_choice_open
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_civic_mandate
+        icon = GFX_goal_generic_political_reform
+        x = 5
+        y = 4
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = {
+            focus = KCR_reggov_mandate_choice
+        }
+        mutually_exclusive = {
+            focus = KCR_reggov_industrial_compact
+        }
+        completion_reward = {
+            add_stability = 0.08
+                        add_political_power = 50
+                        add_ideas = KCR_reggov_civic_mandate
+                        set_country_flag = KCR_reggov_civic_path
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_industrial_compact
+        icon = GFX_goal_generic_political_reform
+        x = 11
+        y = 4
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = {
+            focus = KCR_reggov_mandate_choice
+        }
+        mutually_exclusive = {
+            focus = KCR_reggov_civic_mandate
+        }
+        completion_reward = {
+            add_political_power = 75
+                        add_ideas = KCR_reggov_technocratic_compact
+                        set_country_flag = KCR_reggov_technocratic_path
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_policy_charter
+        icon = GFX_goal_generic_political_reform
+        x = 8
+        y = 5
+        cost = 6
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = {
+            focus = KCR_reggov_civic_mandate
+            focus = KCR_reggov_industrial_compact
+        }
+        completion_reward = {
+            add_stability = 0.04
+                        add_political_power = 50
+                        set_country_flag = KCR_reggov_political_done
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_science_bureau
+        icon = GFX_goal_generic_industry
+        x = 2
+        y = 2
+        cost = 6
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = {
+            focus = KCR_reggov_open_register
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_applied_science
+                        add_research_slot = 1
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_closed_plant_conversion
+        icon = GFX_goal_generic_industry
+        x = 1
+        y = 3
+        cost = 6
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = {
+            focus = KCR_reggov_science_bureau
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_conversion
+                        add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_energy_island
+        icon = GFX_goal_generic_industry
+        x = 3
+        y = 3
+        cost = 6
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = {
+            focus = KCR_reggov_science_bureau
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_energy_reserve
+                        add_stability = 0.02
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_technical_education
+        icon = GFX_goal_generic_industry
+        x = 2
+        y = 4
+        cost = 5
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = {
+            focus = KCR_reggov_closed_plant_conversion
+            focus = KCR_reggov_energy_island
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_technical_education
+                        add_research_bonus = { bonus = 0.5 uses = 1 category = industry }
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_municipal_bonds
+        icon = GFX_goal_generic_industry
+        x = 5
+        y = 2
+        cost = 5
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = {
+            focus = KCR_reggov_open_register
+        }
+        completion_reward = {
+            add_political_power = 25
+                        add_ideas = KCR_reggov_development_bonds
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_cold_storage
+        icon = GFX_goal_generic_industry
+        x = 5
+        y = 3
+        cost = 5
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = {
+            focus = KCR_reggov_municipal_bonds
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_distributed_storage
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_mobility_doctrine
+        icon = GFX_goal_generic_army
+        x = 14
+        y = 2
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_open_register
+        }
+        completion_reward = {
+            army_experience = 10
+                        add_ideas = KCR_reggov_mobile_doctrine
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_signal_companies
+        icon = GFX_goal_generic_army
+        x = 13
+        y = 3
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_mobility_doctrine
+        }
+        completion_reward = {
+            army_experience = 10
+                        add_ideas = KCR_reggov_signal_network
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_engineer_detachments
+        icon = GFX_goal_generic_army
+        x = 15
+        y = 3
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_mobility_doctrine
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_engineer_detachments
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_volunteer_contract
+        icon = GFX_goal_generic_army
+        x = 13
+        y = 4
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_signal_companies
+        }
+        mutually_exclusive = {
+            focus = KCR_reggov_territorial_duty
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_volunteer_contract
+                        add_war_support = 0.03
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_territorial_duty
+        icon = GFX_goal_generic_army
+        x = 15
+        y = 4
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_engineer_detachments
+        }
+        mutually_exclusive = {
+            focus = KCR_reggov_volunteer_contract
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_territorial_duty
+                        add_war_support = 0.05
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_drill_network
+        icon = GFX_goal_generic_army
+        x = 14
+        y = 5
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_volunteer_contract
+            focus = KCR_reggov_territorial_duty
+        }
+        completion_reward = {
+            army_experience = 15
+                        add_ideas = KCR_reggov_training_cycle
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_wartime_industry
+        icon = GFX_goal_generic_industry
+        x = 4
+        y = 5
+        cost = 5
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = {
+            focus = KCR_reggov_technical_education
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_wartime_industry
+                        add_war_support = 0.02
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_border_survey
+        icon = GFX_goal_generic_army
+        x = 8
+        y = 6
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_policy_charter
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_border_survey
+                        set_country_flag = KCR_reggov_war_prep_unlocked
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_contingency_routes
+        icon = GFX_goal_generic_army
+        x = 6
+        y = 7
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_border_survey
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_contingency_routes
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_signal_intercepts
+        icon = GFX_goal_generic_army
+        x = 10
+        y = 7
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_border_survey
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_signal_intercepts
+                        army_experience = 10
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_evacuation_protocol
+        icon = GFX_goal_generic_army
+        x = 6
+        y = 8
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_contingency_routes
+        }
+        completion_reward = {
+            add_ideas = KCR_reggov_evacuation_protocol
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_field_command
+        icon = GFX_goal_generic_army
+        x = 10
+        y = 8
+        cost = 5
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_signal_intercepts
+        }
+        completion_reward = {
+            army_experience = 15
+                        add_ideas = KCR_reggov_field_command
+        }
+    }
+
+    focus = {
+        id = KCR_reggov_northern_line
+        icon = GFX_goal_generic_army
+        x = 8
+        y = 9
+        cost = 6
+        search_filters = { FOCUS_FILTER_ARMY }
+        prerequisite = {
+            focus = KCR_reggov_evacuation_protocol
+            focus = KCR_reggov_field_command
+        }
+        completion_reward = {
+            add_war_support = 0.10
+                        add_ideas = KCR_reggov_northern_line
+                        set_country_flag = KCR_reggov_war_plan_ready
+        }
+    }
+
+}

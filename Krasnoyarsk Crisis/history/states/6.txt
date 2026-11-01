@@ -1,0 +1,14 @@
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		3556 4225 5744 5745 5753 5755 5759 5760 5767 5770 5777 5783 5784 5788 14871 
+	}
+	history={ 
+		owner = GDR 
+		add_core_of = GDR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

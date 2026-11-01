@@ -1,0 +1,49 @@
+scripted_gui = {
+
+    KCR_trading_gui = {
+
+        context_type = decision_category
+        window_name = "KCR_trading_opinion_gui"
+
+        dirty = KCR_trading_gui_update
+
+        properties = {
+
+            KCR_sovetsky_opinion_bar = {
+                frame = KCR_sovetsky_opinion_progress
+            }
+
+            KCR_october_opinion_bar = {
+                frame = KCR_october_opinion_progress
+            }
+
+            KCR_railway_opinion_bar = {
+                frame = KCR_railway_opinion_progress
+            }
+        }
+    }
+    
+    KCR_party_struggle_gui = {
+        context_type = decision_category
+        window_name = "KCR_party_struggle_container"
+        properties = {
+        }
+        triggers = {
+        }
+    }
+    KCR_cabinet_conflict_gui = {
+        context_type = decision_category
+        window_name = "KCR_cabinet_conflict_opinion_gui"
+        triggers = {
+            KCR_governor_tol_portrait_visible = {
+                NOT = {
+                    has_country_flag = KCR_governor_kuznetsov
+                }
+            }
+
+            KCR_governor_kuz_portrait_visible = {
+                has_country_flag = KCR_governor_kuznetsov
+            }
+        }
+    }
+}

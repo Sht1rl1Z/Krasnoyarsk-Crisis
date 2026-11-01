@@ -1,0 +1,14 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		802 803 810 815 819 835 854 856 859 863 878 6183 6184 6185 6187 6188 6190 6191 6192 6195 6196 12703 12704 12708 12709 12711 12716 12719 12721 12724 12726 12728 14907 14908 14909 14910 
+	}
+	history={ 
+		owner = OCT 
+		add_core_of = OCT 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

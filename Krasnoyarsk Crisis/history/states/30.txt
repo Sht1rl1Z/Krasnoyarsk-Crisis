@@ -1,0 +1,14 @@
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		2638 5761 5775 11688 11693 11701 11705 11719 11865 11868 11870 11875 11880 11881 11887 14890 14915 
+	}
+	history={ 
+		owner = KCR 
+		add_core_of = KCR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,606 @@
+guiTypes = { 
+
+
+	# Контейнер интерфейса: EventWindow
+
+
+	containerWindowType = {
+		name = "EventWindow"
+		position = { x=-355 y=-450 }	
+		size = { width = 565 height = 1076 } 
+		moveable = yes
+		Orientation = CENTER
+		
+		show_sound = event_popup
+		hide_sound = menu_close_window
+		
+		# Фон элемента: Background
+		
+		background = {
+			name = "Background"	
+			spriteType ="GFX_tiled_window_back"
+		}
+
+		# Контейнер интерфейса: top_Window
+
+		containerWindowType = {
+			name = "top_Window"
+			position = { x=-5 y=110 }	
+			size = { width = 581 height =121 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+
+			# Фон элемента: Background
+		
+		
+			# Текстовый элемент: Title
+		
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 35 y = 85 }
+				font = "hoi_20b"
+				borderSize = {x = 5 y = -10}
+				text = "Title text here!"	
+				maxWidth = 550
+				maxHeight = 32
+				format = left
+			}
+			# Кнопка интерфейса: btn_minimize
+			buttonType = {
+				name = "btn_minimize"
+				position = {x=26 y=-100}
+				spriteType = "GFX_event_close_button"
+				clicksound = click_default
+				pdx_tooltip = "MINIMIZE_EVENT"
+			}
+		}
+		
+		# Контейнер интерфейса: midsection
+		containerWindowType = {
+			name = "midsection"
+			position = { x=-5 y=215 }	
+			size = { width = 605 height = 70 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT
+
+			# Фон элемента: Background
+
+			
+			# Текстовый элемент: Description
+			instantTextBoxType = {
+				name = "Description"
+				position = { x = 35 y = 0 }
+				font = "hoi_20b"
+				borderSize = {x = 5 y = -10}
+				text = "Long text here!"	
+				maxWidth = 530
+				maxHeight = 230
+				format = left
+			}
+		}	
+
+		# Контейнер интерфейса: bottom_Window
+
+		containerWindowType = {
+			name = "bottom_Window"
+			position = { x=-5 y=521 }	
+			size = { width = 565 height = 531 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT
+
+			# Фон элемента: Background
+
+			iconType = {
+				name = "event_picture"
+				spriteType = "GFX_report_event_001"
+				position = { x = 53 y = -30 }
+				Orientation = UPPER_LEFT
+				alwaystransparent = yes
+			}
+
+			# Сетка вариантов: options_grid
+
+
+			gridBoxType = {
+				name = "options_grid"
+				position = { x = 53 y = 245 } # Положение сетки вариантов события
+				size = { width = 300 height = 30 }
+				slotsize = { width = 300 height = 45 }
+				max_slots_horizontal = 1
+				#format = "centre"
+			}
+		}
+	}
+
+
+
+	@fade_time = 1000
+	# Контейнер интерфейса: EventWindow_Operative
+	containerWindowType = {
+		name = "EventWindow_Operative"
+		position = { x=-282 y=-310 }	
+		size = { width = 581 height =0 }
+		moveable = yes
+		Orientation = CENTER		
+		
+		show_sound = event_popup
+		#hide_sound = menu_close_window
+
+		# Фон элемента: Background
+
+		background = {
+			name = "Background"
+			spriteType ="GFX_event_operative_background"
+		}
+
+		# Контейнер интерфейса: top_Window
+
+		containerWindowType = {
+			name = "top_Window"
+			position = { x=0 y=0 }	
+			size = { width = 581 height =121 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+			fade_type = linear
+			fade_time = @fade_time
+
+			# Текстовый элемент: Title
+
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 180 y = 170 }
+				font = "hoi_20b"
+				borderSize = {x = 5 y = 10}
+				text = "Title text here!"	
+				maxWidth = 320
+				maxHeight = 32
+				format = center
+			}
+			# Изображение или значок: agency_insignia
+			iconType = {
+				name = "agency_insignia"
+				quadTextureSprite = "GFX_intelligence_agency_logo_prc"
+				position = { x = 361 y = 35 }
+				frame = 1
+			}
+			
+			# Кнопка интерфейса: btn_minimize
+			
+			buttonType = {
+				name = "btn_minimize"
+				position = {x=10 y=17}
+				spriteType = "GFX_event_button_minimize"
+				clicksound = click_default
+			}
+		}
+
+		# Контейнер интерфейса: midsection
+
+		containerWindowType = {
+			name = "midsection"
+			position = { x=0 y=121 }	
+			size = { width = 580 height = 235 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT	
+			fade_type = linear
+			fade_time = @fade_time
+
+
+			# Контейнер интерфейса: leader_picture_container
+
+
+			containerWindowType = {
+				name = "leader_picture_container"
+				position = { x=37 y=-65 }
+				size = { width = 100% height = 100% }
+				
+				# Кнопка интерфейса: leader
+				
+				buttonType = {
+					name = "leader"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_leader_unknown"
+					scale = 0.7
+					rotation = 0.05
+					alwaystransparent = yes
+				}
+				
+				# Изображение или значок: paper_clip_2
+				
+				iconType = {
+					name = "paper_clip_2"
+					spriteType = "GFX_paper_clip_event"
+					position = { x = -30 y = 10 }
+					Orientation = "UPPER_LEFT"
+					alwaystransparent = yes
+				}
+
+			}
+
+			# Контейнер интерфейса: leader_details_container
+
+			containerWindowType = {
+				name = "leader_details_container"
+				position = { x= 20 y = 95 }
+
+				# Текстовый элемент: leader_fullname
+
+				instantTextBoxType = {
+					name = "leader_fullname"
+					position = { x = 20 y = 0 }
+					font = "hoi_20b"
+					borderSize = {x = 0 y = 0}
+					text = "Operative Name Here"
+					maxWidth = 512
+					maxHeight = 230
+					format = left
+				}
+
+				# Текстовый элемент: leader_codename
+
+				instantTextBoxType = {
+					name = "leader_codename"
+					position = { x = 20 y = 15 }
+					font = "hoi_20b"
+					borderSize = {x = 0 y = 0}
+					text = "Codename Here"
+					maxWidth = 512
+					maxHeight = 230
+					format = left
+				}
+
+			}
+
+			# Текстовый элемент: Description
+
+			instantTextBoxType = {
+				name = "Description"
+				position = { x = 35 y = 150 }
+				font = "hoi_20b"
+				borderSize = {x = -5 y = -10}
+				text = "Long text here!"	
+				maxWidth = 400
+				maxHeight = 350
+				format = left
+			}	
+		}			
+
+		# Контейнер интерфейса: bottom_Window
+
+		containerWindowType = {
+			name = "bottom_Window"
+			position = { x=0 y=321 }
+			size = { width = 580 height = 200 }
+			moveable = no
+			clipping = no
+			Orientation = UPPER_LEFT
+			#fade_type = accelerated
+			#fade_time = 5000
+
+			# Фон элемента: Background
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_tiled_window_transparent"
+			}
+
+			# Сетка вариантов: options_grid
+
+			gridBoxType = {
+				name = "options_grid"
+				position = { x = 90 y = 120 }
+				size = { width = 300 height = 0 }
+				slotsize = { width = 300 height = 47 }
+				max_slots_horizontal = 1
+				Orientation = UPPER_LEFT
+			}
+		}
+
+		# Контейнер интерфейса: bottom_window_end
+
+		containerWindowType = {
+			name = "bottom_window_end"
+			position = { x=0 y=-100 }
+			size = { width = 581 height = 59 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+			#fade_type = linear
+			#fade_time = 5000
+
+			# Фон элемента: Background
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_tiled_window_transparent"
+			}
+		}
+	}
+
+
+
+
+	# Контейнер интерфейса: EventWindow_leader
+	containerWindowType = {
+		name = "EventWindow_leader"
+		position = { x=-282 y=-310 }	
+		size = { width = 650 height = 0 }
+		moveable = yes
+		Orientation = CENTER		
+		
+		show_sound = event_popup
+		hide_sound = menu_close_window
+		
+		# Фон элемента: Background
+		
+		background = {
+			name = "Background"	
+			spriteType ="GFX_tiled_window_transparent"
+		}
+
+		# Контейнер интерфейса: top_Window
+
+		containerWindowType = {
+			name = "top_Window"
+			position = { x=0 y=0 }	
+			size = { width = 581 height =121 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+
+			# Фон элемента: Background
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_top_win"
+			}			
+		
+			# Текстовый элемент: Title
+		
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 14 y = 70 }
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 0}
+				text = "Title text here!"	
+				maxWidth = 551
+				maxHeight = 32
+				format = centre
+			}
+
+			# Кнопка интерфейса: btn_minimize
+
+			buttonType = {
+				name = "btn_minimize"
+				position = {x=10 y=45}
+				spriteType = "GFX_event_button_minimize"
+				clicksound = click_default
+			}
+		}
+
+		# Контейнер интерфейса: midsection
+
+		containerWindowType = {
+			name = "midsection"
+			position = { x=0 y=121 }	
+			size = { width = 605 height = 235 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT	
+
+			# Фон элемента: Background
+
+			background = {
+				name = "Background"	
+				quadTextureSprite ="GFX_event_report_tileable_midsection"
+			}
+
+			# Контейнер интерфейса: leader_picture_container
+
+			containerWindowType = {
+				name = "leader_picture_container"
+				position = { x=10 y=0 }
+				size = { width = 100% height = 100% }
+				
+				# Кнопка интерфейса: leader
+				
+				buttonType = {
+					name = "leader"
+					position = { x = 33 y = 4 }
+					spriteType = "GFX_leader_unknown"
+					scale = 0.85
+				}
+
+				# Изображение или значок: leader_frame
+
+				iconType = {
+					name = "leader_frame"
+					spriteType = "GFX_event_leader_frame"
+					position = { x = 25 y = -5 }		
+					alwaystransparent = yes
+					scale = 0.85
+				}
+			}
+		
+			# Текстовый элемент: Description
+		
+			instantTextBoxType = {
+				name = "Description"
+				position = { x = 198 y = 0 }
+				font = "Electro"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 350
+				maxHeight = 350
+				format = left
+			}	
+		}			
+
+		# Контейнер интерфейса: bottom_Window
+
+		containerWindowType = {
+			name = "bottom_Window"
+			position = { x=0 y=221 }
+			size = { width = 605 height = 0 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT
+
+			# Фон элемента: Background
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_tileable_bottom_section"
+			}
+
+			# Сетка вариантов: options_grid
+
+			gridBoxType = {
+				name = "options_grid"
+				position = { x = 115 y = 10 }
+				size = { width = 300 height = 0 }
+				slotsize = { width = 300 height = 47 }
+				max_slots_horizontal = 1
+				Orientation = UPPER_LEFT
+			}
+		}
+
+		# Контейнер интерфейса: bottom_window_end
+
+		containerWindowType = {
+			name = "bottom_window_end"
+			position = { x=1 y=0 }
+			size = { width = 581 height = 85 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+
+			# Фон элемента: Background
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_bottom_win_end"
+			}
+		}
+	}
+
+
+
+	# Контейнер интерфейса: EventWindow_News — сайт «Енисей»
+	containerWindowType = {
+		name = "EventWindow_News"
+		position = { x = -524 y = -343 }
+		size = { width = 1100 height = 720 }
+		moveable = yes
+		Orientation = CENTER
+		show_sound = world_news_effect
+		hide_sound = menu_close_window
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_KCR_event_news_bg"
+		}
+
+		# Заголовок статьи располагается под навигацией сайта
+		containerWindowType = {
+			name = "top_Window"
+			position = { x = 0 y = 0 }
+			size = { width = 1048 height = 220 }
+			Orientation = UPPER_LEFT
+
+			# Картинка статьи: берётся из picture = в news_event
+			iconType = {
+				name = "event_picture"
+				spriteType = "GFX_news_event_001"
+				position = { x = 50 y = 245 }
+				Orientation = UPPER_LEFT
+				alwaystransparent = yes
+			}
+
+			# Заголовок новости
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 50 y = 195 }
+				font = "PSTR_40"
+				borderSize = { x = 0 y = 0 }
+				text = "Title text here!"
+				maxWidth = 960
+				maxHeight = 60
+				format = left
+			}
+
+			# Кнопка сворачивания в правой части панели браузера
+			buttonType = {
+				name = "btn_minimize"
+				position = { x = 1010 y = 8 }
+				spriteType = "GFX_event_button_minimize"
+				clicksound = click_default
+			}
+		}
+
+		# Текст статьи располагается справа от фотографии
+		containerWindowType = {
+			name = "midsection"
+			position = { x = 0 y = 0 }
+			size = { width = 1048 height = 600 }
+			Orientation = UPPER_LEFT
+			clipping = no
+
+			instantTextBoxType = {
+				name = "Description"
+				position = { x = 565 y = 245 }
+				font = "PSTR_18"
+				borderSize = { x = 0 y = 0 }
+				text = "Long text here!"
+				maxWidth = 470
+				maxHeight = 395
+				format = justified
+				scrollbartype = "standardtext_slider"
+			}
+		}
+
+		# Кнопка ответа остаётся внизу страницы
+		containerWindowType = {
+			name = "bottom_Window"
+			position = { x = 0 y = 0 }
+			size = { width = 1048 height = 686 }
+			Orientation = UPPER_LEFT
+
+			gridBoxType = {
+				name = "options_grid"
+				position = { x = 374 y = 620 }
+				size = { width = 300 height = 30 }
+				slotsize = { width = 300 height = 47 }
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}
+		}
+	}
+
+	# Контейнер интерфейса: event_option_entry
+	containerWindowType = {
+		name = "event_option_entry"
+		size = { width = 300 height = 47 }
+		clipping = no
+		
+		# Фон элемента: event_option_background
+		
+		background = {
+			name = "event_option_background"	
+			spriteType ="GFX_event_button"
+		}
+		
+		# Текстовый элемент: Name
+		
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 10 y = -3 }
+			font = "hoi_20b"
+			maxWidth = 500
+			maxHeight = 40
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+	}
+}

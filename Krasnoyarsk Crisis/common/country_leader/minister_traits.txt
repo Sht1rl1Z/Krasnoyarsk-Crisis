@@ -1,0 +1,318 @@
+leader_traits = {
+    KCR_municipalism_finance_1_trait = {
+        random = no
+        political_power_gain = 0.05
+        stability_factor = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_municipalism_finance_2_trait = {
+        random = no
+        political_power_gain = 0.1
+        stability_factor = -0.05
+        consumer_goods_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_municipalism_economy_1_trait = {
+        random = no
+        construction_speed = 0.05
+        production_speed_industrial_complex_factor = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_municipalism_economy_2_trait = {
+        random = no
+        production_speed_buildings_factor = 0.1
+        political_power_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_municipalism_interior_1_trait = {
+        random = no
+        stability_factor = 0.05
+        political_power_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_municipalism_interior_2_trait = {
+        random = no
+        political_power_gain = 0.1
+        stability_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_municipalism_infrastructure_1_trait = {
+        random = no
+        construction_speed = 0.05
+        production_speed_infrastructure_factor = 0.1
+        production_speed_rail_way_factor = 0.05
+        production_speed_industrial_complex_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_municipalism_infrastructure_2_trait = {
+        random = no
+        supply_consumption_factor = -0.1
+        production_speed_rail_way_factor = 0.05
+        construction_speed = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_regionalism_finance_1_trait = {
+        random = no
+        political_power_gain = 0.1
+        consumer_goods_factor = -0.05
+        stability_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_regionalism_finance_2_trait = {
+        random = no
+        stability_factor = 0.05
+        political_power_gain = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_regionalism_economy_1_trait = {
+        random = no
+        production_speed_buildings_factor = 0.1
+        construction_speed = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_regionalism_economy_2_trait = {
+        random = no
+        production_speed_industrial_complex_factor = 0.15
+        stability_factor = -0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_regionalism_interior_1_trait = {
+        random = no
+        political_power_gain = 0.1
+        stability_factor = 0.05
+        construction_speed = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_regionalism_interior_2_trait = {
+        random = no
+        political_power_gain = 0.05
+        stability_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_regionalism_infrastructure_1_trait = {
+        random = no
+        production_speed_infrastructure_factor = 0.1
+        production_speed_rail_way_factor = 0.1
+        construction_speed = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_regionalism_infrastructure_2_trait = {
+        random = no
+        supply_consumption_factor = -0.1
+        production_speed_rail_way_factor = 0.05
+        construction_speed = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_soviet_socialism_finance_1_trait = {
+        random = no
+        political_power_gain = 0.1
+        consumer_goods_factor = -0.1
+        stability_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_soviet_socialism_finance_2_trait = {
+        random = no
+        political_power_gain = 0.05
+        stability_factor = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_soviet_socialism_economy_1_trait = {
+        random = no
+        production_speed_buildings_factor = 0.15
+        construction_speed = 0.05
+        consumer_goods_factor = 0.1
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_soviet_socialism_economy_2_trait = {
+        random = no
+        production_speed_industrial_complex_factor = 0.1
+        construction_speed = 0.1
+        political_power_gain = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_soviet_socialism_interior_1_trait = {
+        random = no
+        stability_factor = 0.1
+        political_power_gain = 0.05
+        construction_speed = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_soviet_socialism_interior_2_trait = {
+        random = no
+        political_power_gain = 0.15
+        stability_factor = -0.1
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_soviet_socialism_infrastructure_1_trait = {
+        random = no
+        production_speed_infrastructure_factor = 0.15
+        production_speed_rail_way_factor = 0.1
+        construction_speed = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_soviet_socialism_infrastructure_2_trait = {
+        random = no
+        supply_consumption_factor = -0.15
+        production_speed_rail_way_factor = 0.05
+        construction_speed = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_national_populism_finance_1_trait = {
+        random = no
+        political_power_gain = 0.1
+        stability_factor = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_national_populism_finance_2_trait = {
+        random = no
+        political_power_gain = 0.15
+        consumer_goods_factor = -0.1
+        stability_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_national_populism_economy_1_trait = {
+        random = no
+        production_speed_arms_factory_factor = 0.15
+        construction_speed = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_national_populism_economy_2_trait = {
+        random = no
+        production_speed_buildings_factor = 0.1
+        construction_speed = 0.1
+        political_power_gain = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_national_populism_interior_1_trait = {
+        random = no
+        stability_factor = 0.1
+        political_power_gain = 0.1
+        construction_speed = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_national_populism_interior_2_trait = {
+        random = no
+        political_power_gain = 0.15
+        stability_factor = -0.1
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_national_populism_infrastructure_1_trait = {
+        random = no
+        production_speed_infrastructure_factor = 0.1
+        production_speed_rail_way_factor = 0.1
+        supply_consumption_factor = -0.05
+        construction_speed = -0.1
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_national_populism_infrastructure_2_trait = {
+        random = no
+        production_speed_infrastructure_factor = 0.1
+        local_resources_factor = 0.1
+        political_power_gain = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_social_reformism_finance_1_trait = {
+        random = no
+        stability_factor = 0.1
+        political_power_gain = -0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_social_reformism_finance_2_trait = {
+        random = no
+        political_power_gain = 0.05
+        construction_speed = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_social_reformism_economy_1_trait = {
+        random = no
+        construction_speed = 0.1
+        production_speed_industrial_complex_factor = 0.05
+        consumer_goods_factor = 0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_social_reformism_economy_2_trait = {
+        random = no
+        construction_speed = 0.1
+        production_speed_buildings_factor = 0.05
+        research_speed_factor = 0.05
+        political_power_gain = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_social_reformism_interior_1_trait = {
+        random = no
+        stability_factor = 0.15
+        political_power_gain = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_social_reformism_interior_2_trait = {
+        random = no
+        stability_factor = 0.05
+        political_power_gain = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_social_reformism_infrastructure_1_trait = {
+        random = no
+        production_speed_infrastructure_factor = 0.1
+        construction_speed = 0.05
+        supply_consumption_factor = -0.05
+        political_power_gain = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+    KCR_social_reformism_infrastructure_2_trait = {
+        random = no
+        production_speed_infrastructure_factor = 0.1
+        production_speed_industrial_complex_factor = 0.1
+        stability_factor = -0.05
+        ai_will_do = { factor = 1 }
+    }
+
+}

@@ -1,0 +1,748 @@
+KCR_cabinet_conflict_category = {
+    KCR_reduce_tension = {
+
+        icon = GFX_decision_generic_diplomatic_action
+
+        activation = {
+            tag = KCR
+            has_country_flag = KCR_cabinet_conflict_started
+            NOT = {
+                has_country_flag = KCR_cabinet_conflict_finished
+            }
+        }
+
+        allowed = {
+            original_tag = KCR
+        }
+
+        available = {
+            always = no
+        }
+
+        is_good = yes
+
+        selectable_mission = no
+
+        days_mission_timeout = 30
+
+        timeout_effect = {
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_cabinet_tension > 0
+                    }
+                }
+
+                add_to_variable = {
+                    KCR_cabinet_tension = -5
+                }
+            }
+
+            if = {
+                limit = {
+                    has_country_flag = KCR_cabinet_conflict_started
+                    NOT = {
+                        has_country_flag = KCR_cabinet_conflict_finished
+                    }
+                }
+
+                activate_mission = KCR_reduce_tension
+            }
+        }
+    }
+    KCR_strengthen_mayor = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        activation = {
+            tag = KCR
+            has_country_flag = KCR_cabinet_conflict_started
+            NOT = {
+                has_country_flag = KCR_cabinet_conflict_finished
+            }
+        }
+
+        allowed = {
+            original_tag = KCR
+        }
+
+        available = {
+            always = no
+        }
+
+        is_good = no
+
+        selectable_mission = no
+
+        days_mission_timeout = 28
+
+        timeout_effect = {
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_governor_influence > KCR_mayor_influence
+                    }
+                }
+
+                add_to_variable = {
+                    KCR_mayor_influence = 4
+                    KCR_governor_influence = -4
+                }
+
+                add_to_variable = {
+                    KCR_cabinet_tension = 8
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = KCR_cabinet_conflict_started
+                    NOT = {
+                        has_country_flag = KCR_cabinet_conflict_finished
+                    }
+                }
+                activate_mission = KCR_strengthen_mayor
+            }
+        }
+    }
+
+    KCR_strengthen_governor = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        activation = {
+            tag = KCR
+            has_country_flag = KCR_cabinet_conflict_started
+            NOT = {
+                has_country_flag = KCR_cabinet_conflict_finished
+            }
+        }
+
+        allowed = {
+            original_tag = KCR
+        }
+
+        available = {
+            always = no
+        }
+
+        is_good = no
+
+        selectable_mission = no
+
+        days_mission_timeout = 41
+
+        timeout_effect = {
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_mayor_influence > KCR_governor_influence
+                    }
+                }
+
+                add_to_variable = {
+                    KCR_governor_influence = 4
+                    KCR_mayor_influence = -4
+                }
+
+                add_to_variable = {
+                    KCR_cabinet_tension = 8
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = KCR_cabinet_conflict_started
+                    NOT = {
+                        has_country_flag = KCR_cabinet_conflict_finished
+                    }
+                }
+                activate_mission = KCR_strengthen_governor
+            }
+        }
+    }
+    
+    
+    KCR_support_mayor = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        visible = {
+            check_variable = {
+                KCR_mayor_influence < 90
+            }
+        }
+
+        available = {
+            has_political_power > 24
+        }
+
+        cost = 25
+
+        days_remove = 14
+
+        days_re_enable = 25
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_mayor_influence = 5
+            }
+
+            add_to_variable = {
+                KCR_governor_influence = -5
+            }
+
+            add_to_variable = {
+                KCR_cabinet_tension = 5
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_mayor_influence > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_mayor_influence = 100
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_governor_influence < 0
+                    }
+                }
+
+                set_variable = {
+                    KCR_governor_influence = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+    KCR_support_governor = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        visible = {
+            check_variable = {
+                KCR_governor_influence < 90
+            }
+        }
+
+        available = {
+            has_political_power > 24
+        }
+
+        cost = 25
+
+        days_remove = 14
+
+        days_re_enable = 25
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_governor_influence = 5
+            }
+
+            add_to_variable = {
+                KCR_mayor_influence = -5
+            }
+
+            add_to_variable = {
+                KCR_cabinet_tension = 5
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_governor_influence > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_governor_influence = 100
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_mayor_influence < 0
+                    }
+                }
+
+                set_variable = {
+                    KCR_mayor_influence = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+    KCR_conciliation_meeting = {
+
+        icon = GFX_decision_generic_diplomatic_action
+
+        visible = {
+            check_variable = {
+                KCR_cabinet_tension > 10
+            }
+        }
+
+        available = {
+            has_political_power > 49
+        }
+
+        cost = 50
+
+        days_remove = 21
+
+        days_re_enable = 28
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_cabinet_tension = -15
+            }
+
+            add_stability = 0.02
+
+            random_list = {
+
+                50 = {
+
+                    add_to_variable = {
+                        KCR_mayor_influence = 2
+                    }
+
+                    add_to_variable = {
+                        KCR_governor_influence = 2
+                    }
+                }
+
+                25 = {
+
+                    add_to_variable = {
+                        KCR_mayor_influence = 5
+                    }
+                }
+
+                25 = {
+
+                    add_to_variable = {
+                        KCR_governor_influence = 5
+                    }
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_cabinet_tension < 0
+                    }
+                }
+
+                set_variable = {
+                    KCR_cabinet_tension = 0
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_mayor_influence > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_mayor_influence = 100
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_governor_influence > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_governor_influence = 100
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0.5
+        }
+    }
+
+
+    KCR_pressure_city_officials = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        visible = {
+            check_variable = {
+                KCR_mayor_influence < 100
+            }
+        }
+
+        available = {
+            has_political_power > 39
+        }
+
+        cost = 40
+
+        days_remove = 21
+
+        days_re_enable = 42
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_mayor_influence = 12
+            }
+
+            add_to_variable = {
+                KCR_cabinet_tension = 10
+            }
+
+            add_stability = -0.01
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_mayor_influence > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_mayor_influence = 100
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0.5
+        }
+    }
+
+
+    KCR_regional_commission = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        visible = {
+            check_variable = {
+                KCR_governor_influence < 100
+            }
+        }
+
+        available = {
+            has_political_power > 39
+        }
+
+        cost = 40
+
+        days_remove = 21
+
+        days_re_enable = 42
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_governor_influence = 12
+            }
+
+            add_to_variable = {
+                KCR_cabinet_tension = 10
+            }
+
+            add_stability = -0.01
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_governor_influence > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_governor_influence = 100
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0.5
+        }
+    }
+
+
+    KCR_closed_meeting = {
+
+        icon = GFX_decision_generic_diplomatic_action
+
+        available = {
+            has_political_power > 74
+        }
+
+        cost = 75
+
+        days_remove = 21
+
+        days_re_enable = 56
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_cabinet_tension = -10
+            }
+
+            random_list = {
+
+                40 = {
+
+                    add_to_variable = {
+                        KCR_mayor_influence = 5
+                    }
+
+                    add_to_variable = {
+                        KCR_governor_influence = -5
+                    }
+                }
+
+                40 = {
+
+                    add_to_variable = {
+                        KCR_governor_influence = 5
+                    }
+
+                    add_to_variable = {
+                        KCR_mayor_influence = -5
+                    }
+                }
+
+                20 = {
+
+                    add_to_variable = {
+                        KCR_mayor_influence = 3
+                    }
+
+                    add_to_variable = {
+                        KCR_governor_influence = 3
+                    }
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_cabinet_tension < 0
+                    }
+                }
+
+                set_variable = {
+                    KCR_cabinet_tension = 0
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_mayor_influence < 0
+                    }
+                }
+
+                set_variable = {
+                    KCR_mayor_influence = 0
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_governor_influence < 0
+                    }
+                }
+
+                set_variable = {
+                    KCR_governor_influence = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0.2
+        }
+    }
+
+
+    KCR_unified_budget = {
+
+        icon = GFX_decision_generic_construct_civilian
+
+        available = {
+
+            has_political_power > 99
+
+            check_variable = {
+                KCR_cabinet_tension < 30
+            }
+
+            check_variable = {
+                KCR_mayor_influence > 40
+            }
+
+            check_variable = {
+                KCR_governor_influence > 40
+            }
+        }
+
+        cost = 100
+
+        days_remove = 21
+
+        days_re_enable = 70
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_cabinet_tension = -20
+            }
+
+            add_stability = 0.05
+
+            add_timed_idea = {
+                idea = KCR_unified_budget
+                days = 180
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_cabinet_tension < 0
+                    }
+                }
+
+                set_variable = {
+                    KCR_cabinet_tension = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0.1
+        }
+    }
+
+    KCR_escalate_conflict = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        available = {
+
+            has_political_power > 74
+
+            check_variable = {
+                KCR_cabinet_tension < 90
+            }
+        }
+
+        cost = 75
+
+        days_remove = 14
+
+        days_re_enable = 56
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_cabinet_tension = 25
+            }
+
+            add_stability = -0.03
+
+            random_list = {
+
+                50 = {
+
+                    add_to_variable = {
+                        KCR_mayor_influence = 10
+                    }
+                }
+
+                50 = {
+
+                    add_to_variable = {
+                        KCR_governor_influence = 10
+                    }
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_cabinet_tension > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_cabinet_tension = 100
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_mayor_influence > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_mayor_influence = 100
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_governor_influence > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_governor_influence = 100
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0.1
+        }
+    }
+}

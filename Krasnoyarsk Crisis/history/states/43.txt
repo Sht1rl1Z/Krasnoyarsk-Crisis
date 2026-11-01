@@ -1,0 +1,14 @@
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		3669 3672 3673 3674 3676 3678 3679 3681 3682 3686 3690 3691 3692 3693 3694 3697 3700 3702 3705 8774 8778 8781 8784 11592 11596 11597 11602 11606 14918 14919 14945 
+	}
+	history={ 
+		owner = SVR 
+		add_core_of = SVR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

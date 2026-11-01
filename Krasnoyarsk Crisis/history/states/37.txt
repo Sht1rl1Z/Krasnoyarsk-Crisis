@@ -1,0 +1,14 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		11590 11591 11595 11599 11603 14865 
+	}
+	history={ 
+		owner = SVR 
+		add_core_of = SVR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

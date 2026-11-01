@@ -1,0 +1,81 @@
+spriteTypes = {
+
+    progressbartype = {
+
+        name = "GFX_KCR_opinion_bar"
+
+        textureFile1 = "gfx/interface/KCR/KCR_opinion_bar.dds"
+        textureFile2 = "gfx/interface/KCR/KCR_opinion_bar_bg.dds"
+
+        color = { 1.0 1.0 1.0 }
+        colortwo = { 1.0 1.0 1.0 }
+
+        size = {
+            x = 300
+            y = 20
+        }
+
+        effectFile = "gfx/FX/progress.lua"
+
+        horizontal = yes
+
+        steps = 200
+    }
+
+
+    spriteType = {
+
+        name = "GFX_KCR_opinion_zero_marker"
+
+        texturefile = "gfx/interface/KCR/KCR_opinion_zero_marker.dds"
+
+        legacy_lazy_load = no
+
+        allwaystransparent = yes
+    }
+    
+    spriteType = {
+        name = "GFX_KCR_bonus_political_power"
+        texturefile = "gfx/interface/KCR/political_power.dds"
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_KCR_bonus_stability"
+        texturefile = "gfx/interface/KCR/stability.dds"
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_KCR_bonus_consumer_goods"
+        texturefile = "gfx/interface/KCR/consumer_goods.dds"
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_KCR_mayor"
+        texturefile = "gfx/interface/KCR_mayor.png"
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_KCR_governor_tol"
+        texturefile = "gfx/interface/KCR_governor_tol.png"
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_KCR_governor_kuz"
+        texturefile = "gfx/interface/KCR_governor_kuz.png"
+        legacy_lazy_load = no
+    }
+
+
+    spriteType = {
+        name = "GFX_KCR_elections_decision"
+        texturefile = "gfx/interface/KCR_elections_decision.png"
+    }
+    spriteType = {
+        name = "GFX_politic_BG"
+        texturefile = "gfx/interface/politic_bg.png"
+    }
+}

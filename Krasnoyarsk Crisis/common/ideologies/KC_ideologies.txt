@@ -1,0 +1,116 @@
+# KCR-only political system: five custom ideology groups.
+# These groups are defined globally by HOI4, but are NOT assigned to other countries by this package.
+# KCR must use these ideology groups in its country history/events/focuses.
+# Other countries keep their vanilla ideology groups because this file does not replace them.
+
+ideologies = {
+
+    KCR_municipalism = {
+        types = {
+            KCR_municipalism_type = {
+                can_be_randomly_selected = no
+                color = { 42 112 232 }
+            }
+        }
+        color = { 42 112 232 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        ai_democratic = yes
+        rules = {
+            can_guarantee_other_ideologies = yes
+            can_send_volunteers = yes
+            can_puppet = no
+            can_join_factions = no
+            can_force_government = no
+            can_access_market = no
+        }
+        modifiers = { }
+    }
+
+    KCR_regionalism = {
+        types = {
+            KCR_regionalism_type = {
+                can_be_randomly_selected = no
+                color = { 0 89 184 }
+            }
+        }
+        color = { 0 89 184 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        ai_democratic = yes
+        rules = {
+            can_guarantee_other_ideologies = yes
+            can_send_volunteers = yes
+            can_puppet = no
+            can_join_factions = no
+            can_force_government = no
+            can_access_market = no
+        }
+        modifiers = { }
+    }
+
+    KCR_soviet_socialism = {
+        types = {
+            KCR_soviet_socialism_type = {
+                can_be_randomly_selected = no
+                color = { 150 6 6 }
+            }
+        }
+        color = { 191 6 6 }
+        war_impact_on_world_tension = 0.75
+        faction_impact_on_world_tension = 0.5
+        ai_communist = yes
+        rules = {
+            can_guarantee_other_ideologies = yes
+            can_send_volunteers = yes
+            can_puppet = no
+            can_join_factions = no
+            can_force_government = no
+            can_access_market = no
+        }
+        modifiers = { }
+    }
+    KCR_social_reformism = {
+        types = {
+            KCR_social_reformism_type = {
+                can_be_randomly_selected = no
+                color = { 245 88 88 }
+            }
+        }
+        color = { 0 208 255 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        ai_neutral = yes
+        rules = {
+            can_guarantee_other_ideologies = yes
+            can_send_volunteers = yes
+            can_puppet = no
+            can_join_factions = no
+            can_force_government = no
+            can_access_market = no
+        }
+        modifiers = { }
+    }
+
+    KCR_national_populism = {
+        types = {
+            KCR_national_populism_type = {
+                can_be_randomly_selected = no
+                color = { 224 204 18 }
+            }
+        }
+        color = { 107 107 107 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        ai_fascist = yes
+        rules = {
+            can_guarantee_other_ideologies = yes
+            can_send_volunteers = yes
+            can_puppet = no
+            can_join_factions = no
+            can_force_government = no
+            can_access_market = no
+        }
+        modifiers = { }
+    }
+}

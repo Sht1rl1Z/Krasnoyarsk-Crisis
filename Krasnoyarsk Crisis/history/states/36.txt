@@ -1,0 +1,14 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		7185 7187 7189 7190 7192 7196 7197 7201 7205 7208 7215 7219 7221 14922 14923 14925 
+	}
+	history={ 
+		owner = SVR 
+		add_core_of = SVR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

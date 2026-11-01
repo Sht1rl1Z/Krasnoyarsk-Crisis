@@ -1,0 +1,177 @@
+capital = 1
+
+oob = "IZV_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "IZV_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "IZV_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+recruit_character = IZV_Aselmaren_Tifaw
+recruit_character = IZV_Amokrane_Adrawla
+recruit_character = IZV_Amokrannis_Tazargaghrem
+recruit_character = IZV_Tafsut_Tizirenza
+recruit_character = IZV_Sifax_Takhmi
+recruit_character = IZV_Aselmad_Tamsa
+recruit_character = IZV_Tahari_Tazirem
+recruit_character = IZV_Iderfan_Tazir
+recruit_character = IZV_Meziz_Tawri
+recruit_character = IZV_Mimoun_Tizi
+recruit_character = IZV_Iderfannissi_Tawri
+recruit_character = IZV_Tahariq_Tawri
+recruit_character = IZV_Zirim_Tigh
+recruit_character = IZV_Amar_Azeggaghan
+recruit_character = IZV_Mimoun_Tamsit
+recruit_character = IZV_Mimokrane_Tamda
+recruit_character = IZV_Tahari_Thazmezi
+recruit_character = IZV_Kariq_Asirir
+recruit_character = IZV_Saidi_Azenzurt
+recruit_character = IZV_Iderfane_Azra
+recruit_character = IZV_Mokrannis_Tazrouka
+recruit_character = IZV_Kari_Thazmezi
+recruit_character = IZV_Taharen_Azeggaghan
+recruit_character = IZV_Tarimoun_Tawrint
+recruit_character = IZV_Amokrane_Tamda
+recruit_character = IZV_Aselmar_Tigmim
+recruit_character = IZV_Yuba_Azra
+recruit_character = IZV_Mokrane_Tazmert
+recruit_character = IZV_Aziane_Tamsirt
+recruit_character = IZV_Lyes_Tamur
+recruit_character = IZV_Amar_Tafranirt
+recruit_character = IZV_Amokrannis_Tazmezwal
+recruit_character = IZV_Yuba_Afsou
+recruit_character = IZV_Tahar_Amdart
+recruit_character = IZV_Mokran_Asirit
+recruit_character = IZV_Amad_Tazenza
+recruit_character = IZV_Mimokrane_Tazegzilt
+recruit_character = IZV_Mokrannis_Takrart
+recruit_character = IZV_Iskaren_Afsut
+recruit_character = IZV_Ziri_Azrouka
+recruit_character = IZV_Mokrane_Asit
+recruit_character = IZV_Tahariq_Tazrouka
+recruit_character = IZV_Kariq_Thazmezi
+recruit_character = IZV_Meziz_Tazir
+recruit_character = IZV_Amokrane_Amdayenzur
+recruit_character = IZV_Mokran_Afsou
+recruit_character = IZV_Amari_Tant
+recruit_character = IZV_Tahari_Tazenza
+recruit_character = IZV_Tahar_Taghbal
+recruit_character = IZV_Tafsut_Tazirem
+recruit_character = IZV_Mimoun_Tighan
+recruit_character = IZV_Aselmar_Amerwin
+recruit_character = IZV_Aselmar_Tazrouka
+recruit_character = IZV_Tahar_Asit
+recruit_character = IZV_Lyes_Nfoufraw
+recruit_character = IZV_Kariq_Imzou
+recruit_character = IZV_Massinis_Tala
+recruit_character = IZV_Ziriq_Agadinim
+recruit_character = IZV_Mokrane_Agaghal
+recruit_character = IZV_Aselmaren_Adrawla
+recruit_character = IZV_Iskarim_Takilt
+recruit_character = IZV_Iskar_Tigmim
+recruit_character = IZV_Iskarim_Tazmert
+recruit_character = IZV_Mokrane_Tanem
+recruit_character = IZV_Saidi_Azra
+recruit_character = IZV_Massinissa_Takfawinirt
+recruit_character = IZV_Zirim_Azourt
+recruit_character = IZV_Aselmar_Imat
+recruit_character = IZV_Zirim_Agadinim
+recruit_character = IZV_Mokran_Tazwurt
+recruit_character = IZV_Mokran_Tamsirt
+recruit_character = IZV_Zirimokran_Tamur
+recruit_character = IZV_Iderfannissi_Asirit
+recruit_character = IZV_Massinis_Azem
+recruit_character = IZV_Taharen_Agadinim
+recruit_character = IZV_Iderfane_Takli
+recruit_character = IZV_Kariq_Imat
+recruit_character = IZV_Kari_Tislit
+recruit_character = IZV_Iderfan_Tawri
+recruit_character = IZV_Mimokrane_Takhmi
+recruit_character = IZV_Iderfax_Tazargaghrem
+recruit_character = IZV_Iderfane_Tizirenza
+recruit_character = IZV_Tahariq_Taghrem
+recruit_character = IZV_Amari_Assifelt
+recruit_character = IZV_Tahariq_Tiziant
+recruit_character = IZV_Massinissa_Tamsit
+recruit_character = IZV_Aselmad_Amerwin
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.49
+set_war_support = 0.77
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1889.1.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 27
+	fascism = 13
+	communism = 32
+	neutrality = 28
+}
+
+
+
+
+

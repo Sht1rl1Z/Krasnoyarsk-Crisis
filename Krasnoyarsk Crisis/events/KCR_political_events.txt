@@ -1,0 +1,498 @@
+add_namespace = kcr
+
+country_event = {
+
+    id = kcr.1
+
+    title = kcr.1.t
+    desc = kcr.1.d
+
+    picture = GFX_KCR_event_1
+    
+
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+    trigger = {
+        tag = KCR
+    }
+
+    option = {
+        name = kcr.1.a
+        set_country_flag = KCR_party_struggle_started
+        unlock_decision_category_tooltip = KCR_party_struggle_category
+        set_variable = {
+            KCR_party_nationalists = 21
+        }
+        set_variable = {
+            KCR_party_governor = 41
+        }
+        set_variable = {
+            KCR_party_proletariat = 28
+        }
+        set_variable = {
+            KCR_party_justice = 10
+        }
+        set_variable = {
+            KCR_party_struggle_gui = 1
+        }
+    }
+}
+
+country_event = {
+    id = kcr.2
+
+    title = kcr.2.t
+    desc = kcr.2.d
+
+    picture = GFX_KCR_event_2
+
+    is_triggered_only = yes
+
+    # ЕДИНЫЙ ЦЕНТР
+    option = {
+        name = kcr.2.a
+
+        set_country_flag = KCR_party_governor_won
+        set_country_flag = KCR_party_struggle_finished
+        
+        if = {
+            limit = {
+                check_variable = { KCR_mayor_influence > KCR_governor_influence }
+            }
+            country_event = kcr.6
+        }
+        else = {
+            country_event = kcr.7
+        }
+    }
+}
+country_event = {
+    id = kcr.3
+
+    title = kcr.3.t
+    desc = kcr.3.d
+
+    picture = GFX_KCR_event_3
+
+    is_triggered_only = yes
+    # ЛДПЦ
+    option = {
+        name = kcr.3.a
+        
+        set_country_flag = KCR_party_nationalists_won
+        set_country_flag = KCR_party_struggle_finished
+
+        if = {
+            limit = {
+                check_variable = { KCR_mayor_influence > KCR_governor_influence }
+            }
+            country_event = kcr.6
+        }
+        else = {
+            country_event = kcr.7
+        }
+    }
+}
+country_event = {
+    id = kcr.4
+
+    title = kcr.4.t
+    desc = kcr.4.d
+
+    picture = GFX_KCR_event_4
+
+    is_triggered_only = yes
+    # СР
+    option = {
+        name = kcr.4.a
+
+        set_country_flag = KCR_party_justice_won
+        set_country_flag = KCR_party_struggle_finished
+
+        if = {
+            limit = {
+                check_variable = { KCR_mayor_influence > KCR_governor_influence }
+            }
+            country_event = kcr.6
+        }
+        else = {
+            country_event = kcr.7
+        }
+    }
+}
+country_event = {
+    id = kcr.5
+
+    title = kcr.5.t
+    desc = kcr.5.d
+
+    picture = GFX_KCR_event_5
+
+    is_triggered_only = yes
+    # КПЦ
+    option = {
+        name = kcr.5.a
+        set_country_flag = KCR_party_proletariat_won
+        set_country_flag = KCR_party_struggle_finished
+        if = {
+            limit = {
+                check_variable = { KCR_mayor_influence > KCR_governor_influence }
+            }
+            country_event = kcr.6
+        }
+        else = {
+            country_event = kcr.7
+        }
+    }
+}
+
+country_event = {
+    id = kcr.6
+
+    title = kcr.6.t
+    desc = kcr.6.d
+
+    picture = GFX_KCR_event_6
+
+    is_triggered_only = yes
+
+    # ПОБЕДА МЭРА
+    option = {
+        name = kcr.6.a
+
+        set_country_flag = KCR_mayor_won
+        set_country_flag = KCR_cabinet_conflict_finished
+
+        set_variable = {
+            KCR_cabinet_tension = 0
+        }
+
+        remove_ideas = KCR_regional_vertical
+        add_ideas = KCR_municipal_power
+
+        complete_national_focus = KCR_nyneshniy_apparat
+    }
+}
+country_event = {
+    id = kcr.7
+
+    title = kcr.7.t
+    desc = kcr.7.d
+
+    picture = GFX_KCR_event_7
+
+    is_triggered_only = yes
+    # ПОБЕДА ГУБЕРНАТОРА
+    option = {
+        name = kcr.7.a
+        
+        set_country_flag = KCR_governor_won
+        set_country_flag = KCR_cabinet_conflict_finished
+
+        set_variable = {
+            KCR_cabinet_tension = 0
+        }
+
+        remove_ideas = KCR_municipal_power
+        add_ideas = KCR_regional_vertical
+
+        if = {
+            limit = {
+                has_country_flag = KCR_party_governor_won
+            }
+            complete_national_focus = KCR_gubernator_demokrat
+        }
+        else_if = {
+            limit = {
+                has_country_flag = KCR_party_nationalists_won
+            }
+            complete_national_focus = KCR_nacionalizm_nashe_vse
+        }
+        else_if = {
+            limit = {
+                has_country_flag = KCR_party_justice_won
+            }
+            complete_national_focus = KCR_spravedlivye_resheniya
+        }
+        else_if = {
+            limit = {
+                has_country_flag = KCR_party_proletariat_won
+            }
+            complete_national_focus = KCR_vlast_proletariatu
+        }
+    }
+}
+country_event = {
+    id = kcr.8
+
+    title = kcr.8.t
+    desc = kcr.8.d
+
+    picture = GFX_KCR_event_8
+
+    is_triggered_only = yes
+
+    option = {
+        name = kcr.8.a
+        set_politics = {
+            ruling_party = KCR_regionalism
+            elections_allowed = no 
+        }
+    }
+    immediate = {
+        load_focus_tree = {
+            tree = KSR_edro_reg_tree
+        }
+    }
+}
+
+country_event = {
+    id = kcr.9
+
+    title = kcr.9.t
+    desc = kcr.9.d
+
+    picture = GFX_KCR_event_9
+
+    is_triggered_only = yes
+
+    option = {
+        name = kcr.9.a
+        set_politics = {
+            ruling_party = KCR_national_populism
+            elections_allowed = no
+        }
+    }
+    immediate = {
+        load_focus_tree = {
+            tree = KSR_ldpc_tree
+        }
+    }
+}
+country_event = {
+    id = kcr.10
+
+    title = kcr.10.t
+    desc = kcr.10.d
+
+    picture = GFX_KCR_event_10
+
+    is_triggered_only = yes
+
+    option = {
+        name = kcr.10.a
+        set_politics = {
+            ruling_party = KCR_social_reformism
+            elections_allowed = no 
+        }
+    }
+    immediate = {
+        load_focus_tree = {
+            tree = KSR_cc_tree
+        }
+    }
+}
+country_event = {
+    id = kcr.11
+
+    title = kcr.11.t
+    desc = kcr.11.d
+
+    picture = GFX_KCR_event_11
+
+    is_triggered_only = yes
+
+    option = {
+        name = kcr.11.a
+        set_politics = {
+            ruling_party = KCR_soviet_socialism
+            elections_allowed = no 
+        }   
+    }
+    immediate = {
+        load_focus_tree = {
+            tree = KSR_kpc_tree
+        }
+    }
+}
+country_event = {
+    id = kcr.12
+
+    title = kcr.12.t
+    desc = kcr.12.d
+
+    picture = GFX_KCR_event_12
+
+    is_triggered_only = yes
+
+    option = {
+        name = kcr.12.a
+        add_political_power = 25
+    }
+}
+country_event = {
+    id = kcr.13
+
+    title = kcr.13.t
+    desc = kcr.13.d
+
+    picture = GFX_KCR_event_13
+
+    is_triggered_only = yes
+
+    option = {
+        name = kcr.13.a
+        random_list = {
+            50 = {
+                add_to_variable = {
+                    KCR_opinion_of_the_sovetsky_district = 30
+                }
+
+                add_to_variable = {
+                    KCR_sovetsky_opinion_progress = 30
+                }
+
+                country_event = {
+                    id = kcr.14
+                    days = 14
+                }
+            }
+            50 = {
+                add_to_variable = {
+                    KCR_opinion_of_the_sovetsky_district = -15
+                }
+
+                add_to_variable = {
+                    KCR_sovetsky_opinion_progress = -15
+                }
+
+                country_event = {
+                    id = kcr.15
+                    days = 14
+                }
+            }
+        }
+    }
+    option = {
+        name = kcr.13.b
+        random_list = {
+            50 = {
+                add_to_variable = {
+                    KCR_opinion_of_the_october_district = 30
+                }
+
+                add_to_variable = {
+                    KCR_october_opinion_progress = 30
+                }
+
+                country_event = {
+                    id = kcr.14
+                    days = 14
+                }
+            }
+            50 = {
+                add_to_variable = {
+                    KCR_opinion_of_the_october_district = -15
+                }
+
+                add_to_variable = {
+                    KCR_october_opinion_progress = -15
+                }
+
+                country_event = {
+                    id = kcr.15
+                    days = 14
+                }
+            }
+        }
+    }
+    option = {
+        name = kcr.13.c
+        random_list = {
+            50 = {
+                add_to_variable = {
+                    KCR_opinion_of_the_railway_district = 30
+                }
+
+                add_to_variable = {
+                    KCR_railway_opinion_progress = 30
+                }
+
+                country_event = {
+                    id = kcr.14
+                    days = 14
+                }
+            }
+            50 = {
+                add_to_variable = {
+                    KCR_opinion_of_the_railway_district = -15
+                }
+
+                add_to_variable = {
+                    KCR_railway_opinion_progress = -15
+                }
+
+                country_event = {
+                    id = kcr.15
+                    days = 14
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = kcr.14
+
+    title = kcr.14.t
+    desc = kcr.14.d
+
+    picture = GFX_KCR_event_14
+
+    is_triggered_only = yes
+
+    add_to_variable = {
+        KCR_trading_gui_update = 1
+    }
+
+    option = {
+        name = kcr.14.a
+    }
+}
+country_event = {
+    id = kcr.15
+
+    title = kcr.15.t
+    desc = kcr.15.d
+
+    picture = GFX_KCR_event_14
+
+    is_triggered_only = yes
+
+    add_to_variable = {
+        KCR_trading_gui_update = 1
+    }
+
+    option = {
+        name = kcr.15.a
+    }
+}
+country_event = {
+    id = kcr.16
+
+    title = kcr.16.t
+    desc = kcr.16.d
+
+    picture = GFX_KCR_event_16
+
+    is_triggered_only = yes
+
+    option = {
+        name = kcr.16.a 
+    }
+    immediate = {
+        load_focus_tree = {
+            tree = KSR_edro_mun_tree
+        }
+    }
+}

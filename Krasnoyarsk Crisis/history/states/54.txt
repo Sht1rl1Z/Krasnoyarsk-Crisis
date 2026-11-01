@@ -1,0 +1,14 @@
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		1935 1936 1937 1939 1942 1943 1947 1948 1951 1956 1957 1958 1959 1965 1966 1969 1970 1972 1974 1976 2901 2916 2929 
+	}
+	history={ 
+		owner = LEN
+		add_core_of = LEN 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

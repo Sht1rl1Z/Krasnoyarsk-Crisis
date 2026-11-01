@@ -1,0 +1,94 @@
+﻿capital = 3
+
+oob = "GDR_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GDR_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GDR_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+######### MTG #########
+
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 100
+set_stability = 0.49
+set_war_support = 0.77
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1889.1.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 27
+	fascism = 13
+	communism = 32
+	neutrality = 28
+}
+
+
+
+
+
+
+

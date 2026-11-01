@@ -1,0 +1,14 @@
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		7182 7183 7184 7188 7195 7198 7212 7213 7217 7218 7220 7223 14921 
+	}
+	history={ 
+		owner = KCR 
+		add_core_of = KCR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

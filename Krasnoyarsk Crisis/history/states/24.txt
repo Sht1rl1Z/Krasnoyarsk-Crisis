@@ -1,0 +1,14 @@
+state={
+	id=24
+	name="STATE_24"
+	provinces={
+		8986 
+	}
+	history={ 
+		owner = SFU 
+		add_core_of = SFU 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,167 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_track_maintheme_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_krasnoyarsk_crisis.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_gorbez_kah_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_01.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Empire_Bavarian_Affair_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_02.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Papa_Po_vode_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Papa_Po_vode.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Sova_Krutitsya_Zemlya_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Sova_Krutitsya_Zemlya.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Sova_Glavni_geroy_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Sova_Glavni_geroy.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_KHolodnyjj_zvonok_Mekhanizm_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_KHolodnyjj_zvonok_Mekhanizm.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Kastrichnik_Vorkuta_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Kastrichnik_Vorkuta.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Relsy_Dozhd_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Relsy_Dozhd.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Relsy_Tyulpany_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Relsy_Tyulpany.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Peremotka_Mojj_strakh_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Peremotka_Mojj_strakh.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_BAU_Potancujj_so_mnojj_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_BAU_Potancujj_so_mnojj.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Fengshui_idst_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Fengshui_idst.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Icarrus_Approve_texticon"
+		texturefile = "gfx/interface/KC_album_cover/track_Icarrus_Approve.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Ivan_Dorn_Teleport_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Ivan_Dorn_-_Teleport.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Televizor_Gazprombajjter_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Televizor_-_Gazprombajjter.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Televizor_sidi_doma_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Televizor_-_sidi_doma.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Chernikovskaya_Hata_Malchik_Moi_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Chernikovskaya_Hata_-_Malchik_Moi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Mumijj_Troll_Vladivostok_2000_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Mumijj_Troll_-_Vladivostok_2000.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Mumijj_Troll_Leto_bez_interneta_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Mumijj_Troll_-_Leto_bez_interneta.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Lyubje_Soldat_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Lyubje_-_Soldat.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Lyubje_Ot_Volgi_do_Eniseya_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Lyubje_-_Ot_Volgi_do_Eniseya.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Lyubje_Za_tebya_Rodinamat_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Lyubje_-_Za_tebya_Rodinamat.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Nikolajj_Anisimov_Grachi_prileteli_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Nikolajj_Anisimov_-_Grachi_prileteli.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Viktor_Cojj_Vosmiklassnica_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Viktor_Cojj_-_Vosmiklassnica.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Viktor_Cojj_Kukushka_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Viktor_Cojj_-_Kukushka.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Uma2rman_Kazhetsya_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Uma2rman_-_Kazhetsya.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Mashina_vremeni_Odnazhdy_mir_prognjotsya_pod_nas_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Mashina_vremeni_-_Odnazhdy_mir_prognjotsya_pod_nas.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Pavel_Plamenev_Russkijj_ne_pobezhdjon_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Pavel_Plamenev_-_Russkijj_ne_pobezhdjon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Nikolajj_Emelin_Rus_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Nikolajj_Emelin_-_Rus.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_MC_Bo_Khan_Dugin_texticon"
+		texturefile = "gfx/interface/KC_album_cover/MC_Bo_Khan_-_Dugin.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Visokosnyjj_God_Tikhijj_ogonjok_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Visokosnyjj_God_-_Tikhijj_ogonjok.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_track_Agata_Kristi_Kak_na_vojjne_texticon"
+		texturefile = "gfx/interface/KC_album_cover/Agata_Kristi_-_Kak_na_vojjne.dds"
+		legacy_lazy_load = no
+	}
+}

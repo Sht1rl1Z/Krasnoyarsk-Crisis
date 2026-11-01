@@ -1,0 +1,39 @@
+#reload countrycolors
+
+GDR = {
+	color = rgb { 168 101 0 }
+	color_ui = rgb { 130 78 0 }
+}
+OCT = {
+	color = rgb { 20 99 0 }
+	color_ui = rgb { 15 77 0 }
+}
+SFU = {
+	color = rgb { 20 105 0 }
+	color_ui = rgb { 18 90 0 }
+}
+SVR = {
+	color = rgb { 108 103 58 }
+	color_ui = rgb { 145 141 0 }
+}
+KCR = {
+	color = rgb { 145 73 92 }
+	color_ui = rgb { 158 66 0 }
+}
+LEN = {
+	color = rgb { 130 76 59 }
+	color_ui = rgb { 44 133 227 }
+}
+KIR = {
+	color = rgb { 170 165 72  }
+	color_ui = rgb { 168 171 14 }
+}
+SVD = {
+	color = rgb { 120 45 40  }
+	color_ui = rgb { 82 32 29 }
+}
+
+IZV = {
+	color = rgb { 44 133 227 }
+	color_ui = rgb { 44 133 227 }
+}

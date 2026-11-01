@@ -1,0 +1,14 @@
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		262 264 267 268 272 273 275 277 280 282 284 289 290 294 296 297 298 5985 5986 5995 6001 6005 6007 6009 6020 6025 6031 12663 12682 12688 12689 
+	}
+	history={ 
+		owner = SVD
+		add_core_of = SVD 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

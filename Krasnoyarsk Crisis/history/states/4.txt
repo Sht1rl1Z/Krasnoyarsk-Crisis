@@ -1,0 +1,14 @@
+state={
+	id=4
+	name="STATE_4"
+	provinces={
+		5746 5752 5754 5756 5765 5766 5769 5776 5780 5781 5782 5785 5786 14892 
+	}
+	history={ 
+		owner = GDR 
+		add_core_of = GDR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

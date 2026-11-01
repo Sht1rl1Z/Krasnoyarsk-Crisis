@@ -1,0 +1,14 @@
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		2 3 4 6 7 8 9 11 12 13 16 19 20 21 23 5562 5572 5573 5578 5582 5587 14958 14959 14960 14961 
+	}
+	history={ 
+		owner = LEN
+		add_core_of = LEN 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

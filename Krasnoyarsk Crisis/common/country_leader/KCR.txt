@@ -1,0 +1,19 @@
+KCR_municipal_leader = {
+    ideology = KCR_municipalism
+}
+
+KCR_regional_leader = {
+    ideology = KCR_regionalism
+}
+
+KCR_socialist_leader = {
+    ideology = KCR_soviet_socialism
+}
+
+KCR_populist_leader = {
+    ideology = KCR_national_populism
+}
+
+KCR_reformist_leader = {
+    ideology = KCR_social_reformism
+}

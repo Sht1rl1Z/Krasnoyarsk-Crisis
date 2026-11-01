@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_musicplayer_top_bar_track_krasnoyarsk_radio"
+        texturefile = "gfx/interface/topbar/musicplayer/krasnoyarsk_radio_album_art.dds"
+        noOfFrames = 2
+    }
+}

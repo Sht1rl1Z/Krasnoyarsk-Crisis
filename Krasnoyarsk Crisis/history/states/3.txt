@@ -1,0 +1,14 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		2577 4211 4214 4215 4218 4219 4220 4222 4224 4226 4227 4229 4230 4233 4234 4236 4237 4239 4240 4241 5750 5764 5771 5789 14885 14888 14889 
+	}
+	history={ 
+		owner = GDR 
+		add_core_of = GDR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

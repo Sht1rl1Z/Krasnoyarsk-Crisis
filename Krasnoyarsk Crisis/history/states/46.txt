@@ -1,0 +1,14 @@
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		10 14 18 1940 1944 3754 5563 5568 5576 5580 5586 5591 12326 12330 12333 12336 12339 12341 12344 12345 12346 12347 12348 12349 
+	}
+	history={ 
+		owner = LEN
+		add_core_of = LEN 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,23 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_tiled_window_back"
+        texturefile = "gfx/interface/event_background.dds"
+    }
+	spriteType = {
+        name = "GFX_event_close_button"
+        texturefile = "gfx/interface/event_close_button.dds"
+    }
+    spriteType = {
+        name = "GFX_event_button"
+        texturefile = "gfx/interface/event_button.dds"
+    }
+
+    spriteType = {
+        name = "GFX_KCR_event_news_bg"
+        texturefile = "gfx/interface/enisey_news_background.dds"
+    }
+    spriteType = {
+        name = "GFX_event_button_minimize"
+        texturefile = "gfx/interface/event_button_minimize.dds"
+    }
+}

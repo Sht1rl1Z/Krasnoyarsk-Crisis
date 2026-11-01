@@ -1,0 +1,14 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		10059 10060 10063 10065 10067 10070 10733 10741 10752 10753 10763 10765 13057 13109 
+	}
+	history={ 
+		owner = OCT 
+		add_core_of = OCT 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

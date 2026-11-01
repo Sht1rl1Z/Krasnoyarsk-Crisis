@@ -1,0 +1,769 @@
+focus_tree = {
+    id = KCR_focus_tree
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 100
+            tag = KCR
+        }
+    }
+
+    default = no
+
+
+    # ============================================================
+    # ЦЕНТР БЕЗ ЦЕНТРА
+    # ============================================================
+
+    focus = {
+        id = KCR_centrbezcentra
+        icon = GFX_focus_KCR_centrbezcentra
+
+        x = 8
+        y = 0
+
+        cost = 5
+
+        cancelable = no
+        
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+
+        completion_reward = {
+            add_political_power = 100
+		
+	        set_country_flag = KCR_cabinet_conflict_started
+                
+            hidden_effect = {
+                
+                scoped_play_song = "Sova_Krutitsya_Zemlya"
+            }
+            set_variable = {
+                KCR_mayor_influence = 50
+            }
+
+            set_variable = {
+                KCR_governor_influence = 50
+            }
+
+            set_variable = {
+                KCR_cabinet_tension = 0
+            }
+        }
+    }
+
+
+    # ============================================================
+    # ПОЛИТИЧЕСКАЯ ВЕТКА
+    # ============================================================
+
+    # Два кабинета
+    focus = {
+        id = KCR_dvakabineta
+        icon = GFX_focus_KCR_dvakabineta
+        x = 5
+        y = 1
+
+        cost = 5
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        prerequisite = {
+            focus = KCR_centrbezcentra
+        }
+
+        completion_reward = {
+            add_political_power = 25
+
+            swap_ideas = {
+                remove_idea = KCR_administrative_chaos_1
+                add_idea = KCR_administrative_chaos_2
+            }
+        }
+    }
+
+
+    # ------------------------------------------------------------
+    # Нынешний аппарат
+    # ------------------------------------------------------------
+
+    focus = {
+        id = KCR_nyneshniy_apparat
+        icon = GFX_focus_KCR_nyneshniy_apparat
+
+        x = 0
+        y = 2
+
+        cost = 5
+
+        available = {
+            date > 2014.9.13
+            has_country_flag = KCR_party_struggle_finished
+            has_country_flag = KCR_cabinet_conflict_finished
+            has_country_flag = KCR_mayor_won
+        }
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        mutually_exclusive = {
+            focus = KCR_gubernator_demokrat
+            focus = KCR_nacionalizm_nashe_vse
+            focus = KCR_spravedlivye_resheniya
+            focus = KCR_vlast_proletariatu
+        }
+        prerequisite = {
+            focus = KCR_dvakabineta
+        }
+
+        completion_reward = {
+             
+        }
+    }
+
+
+    # Закрепиться на кресле
+    focus = {
+        id = KCR_zakrepitsya_na_kresle
+        icon = GFX_focus_KCR_zakrepitsya_na_kresle
+
+        x = 0
+        y = 4
+
+        cost = 7
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        prerequisite = {
+            focus = KCR_nyneshniy_apparat
+        }
+
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = KCR_administrative_chaos_2
+                add_idea = KCR_administrative_legacy
+            }
+        }
+    }
+
+
+    # ------------------------------------------------------------
+    # Губернатор демократ
+    # ------------------------------------------------------------
+
+    focus = {
+        id = KCR_gubernator_demokrat
+        icon = GFX_focus_KCR_gubernator_demokrat
+
+        x = 2
+        y = 2
+
+        cost = 5
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        available = {
+            date > 2014.9.13
+            has_country_flag = KCR_party_struggle_finished
+            has_country_flag = KCR_cabinet_conflict_finished
+            has_country_flag = KCR_party_governor_won
+            has_country_flag = KCR_governor_won
+        }
+
+        mutually_exclusive = {
+            focus = KCR_nyneshniy_apparat
+            focus = KCR_nacionalizm_nashe_vse
+            focus = KCR_spravedlivye_resheniya
+            focus = KCR_vlast_proletariatu
+        }
+
+        prerequisite = {
+            focus = KCR_dvakabineta
+        }
+
+        completion_reward = {
+        }
+    }
+
+
+    # Опора центра
+    focus = {
+        id = KCR_opora_centra
+        icon = GFX_focus_KCR_opora_centra
+
+        x = 2
+        y = 4
+
+        cost = 7
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        prerequisite = {
+            focus = KCR_gubernator_demokrat
+        }
+
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = KCR_administrative_chaos_2
+                add_idea = KCR_order_is_above_all_else
+            }
+        }
+    }
+    # ------------------------------------------------------------
+    # Национализм наше всё
+    # ------------------------------------------------------------
+
+    focus = {
+        id = KCR_nacionalizm_nashe_vse
+        icon = GFX_focus_KCR_nacionalizm_nashe_vse
+
+        x = 4
+        y = 2
+
+        cost = 5
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        available = {
+            date > 2014.9.13
+            has_country_flag = KCR_party_struggle_finished
+            has_country_flag = KCR_cabinet_conflict_finished
+            has_country_flag = KCR_party_nationalists_won
+            has_country_flag = KCR_governor_won
+
+        }
+        mutually_exclusive = {
+            focus = KCR_nyneshniy_apparat
+            focus = KCR_gubernator_demokrat
+            focus = KCR_spravedlivye_resheniya
+            focus = KCR_vlast_proletariatu
+        }
+        prerequisite = {
+            focus = KCR_dvakabineta
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+
+    # Новый курс
+    focus = {
+        id = KCR_novyy_kurs
+        icon = GFX_focus_KCR_novyy_kurs
+
+        x = 4
+        y = 4
+
+        cost = 7
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        prerequisite = {
+            focus = KCR_nacionalizm_nashe_vse
+        }
+
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = KCR_administrative_chaos_2
+                add_idea = KCR_a_land_for_its_own_people
+            }
+        }
+    }
+    # ------------------------------------------------------------
+    # Справедливые решения
+    # ------------------------------------------------------------
+
+    focus = {
+        id = KCR_spravedlivye_resheniya
+        icon = GFX_focus_KCR_spravedlivye_resheniya
+
+        x = 6
+        y = 2
+
+        cost = 5
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        available = {
+            date > 2014.9.13
+            has_country_flag = KCR_party_struggle_finished
+            has_country_flag = KCR_cabinet_conflict_finished
+            has_country_flag = KCR_party_justice_won
+            has_country_flag = KCR_governor_won
+        }
+        mutually_exclusive = {
+            focus = KCR_nyneshniy_apparat
+            focus = KCR_gubernator_demokrat
+            focus = KCR_nacionalizm_nashe_vse
+            focus = KCR_vlast_proletariatu
+        }
+
+        prerequisite = {
+            focus = KCR_dvakabineta
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+
+    # Центр для всех
+    focus = {
+        id = KCR_centr_dlya_vseh
+        icon = GFX_focus_KCR_centr_dlya_vseh
+
+        x = 6
+        y = 4
+
+        cost = 7
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        prerequisite = {
+            focus = KCR_spravedlivye_resheniya
+        }
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = KCR_administrative_chaos_2
+                add_idea = KCR_shared_house
+            }
+        }
+    }
+
+    # ------------------------------------------------------------
+    # Власть пролетариату
+    # ------------------------------------------------------------
+
+    focus = {
+        id = KCR_vlast_proletariatu
+        icon = GFX_focus_KCR_vlast_proletariatu
+
+        x = 8
+        y = 2
+
+        cost = 5
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        available = {
+            date > 2014.9.13
+            has_country_flag = KCR_party_struggle_finished
+            has_country_flag = KCR_cabinet_conflict_finished
+            has_country_flag = KCR_party_proletariat_won
+            has_country_flag = KCR_governor_won
+        }
+
+        mutually_exclusive = {
+            focus = KCR_nyneshniy_apparat
+            focus = KCR_gubernator_demokrat
+            focus = KCR_nacionalizm_nashe_vse
+            focus = KCR_spravedlivye_resheniya
+        }
+
+        prerequisite = {
+            focus = KCR_dvakabineta
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+
+    # Красный район
+    focus = {
+        id = KCR_krasnyy_rayon
+        icon = GFX_focus_KCR_krasnyy_rayon
+
+        x = 8
+        y = 4
+
+        cost = 7
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        prerequisite = {
+            focus = KCR_vlast_proletariatu
+        }
+
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = KCR_administrative_chaos_2
+                add_idea = KCR_siberian_socialism
+            }
+        }
+    }
+
+
+    # ============================================================
+    # ПРОМЫШЛЕННО-ТОРГОВАЯ ВЕТКА
+    # ============================================================
+
+    # Район без заводов
+    focus = {
+        id = KCR_rayonbezzavodov
+        icon = GFX_focus_KCR_rayonbezzavodov
+        x = 13
+        y = 1
+
+        cost = 5
+
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+
+        prerequisite = {
+            focus = KCR_centrbezcentra
+        }
+
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = KCR_economic_base_1
+                add_idea = KCR_economic_base_2
+            }
+        }
+    }
+
+
+    # Зависимость от соседей
+    focus = {
+        id = KCR_zavisimostotsosedey
+        icon = GFX_focus_KCR_zavisimostotsosedey
+        x = 13
+        y = 2
+
+        cost = 6
+
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+
+        prerequisite = {
+            focus = KCR_rayonbezzavodov
+        }
+
+        completion_reward = {
+
+	        set_variable = {
+    	        KCR_trading_gui_update = 0
+	        }
+            set_country_flag = KCR_trading_started
+            set_variable = {
+                KCR_opinion_of_the_sovetsky_district = 0
+            }
+            set_variable = {
+                KCR_opinion_of_the_october_district = 0
+            }
+            set_variable = {
+                KCR_opinion_of_the_railway_district = 0
+            }
+            set_variable = {
+                KCR_sovetsky_opinion_progress = 100
+            }
+
+            set_variable = {
+                KCR_october_opinion_progress = 100
+            }
+
+            set_variable = {
+                KCR_railway_opinion_progress = 100
+            }
+
+
+            # Бонусы за отношения
+            set_variable = {
+                KCR_sovetsky_pp_bonus = 0
+            }
+
+            set_variable = {
+                KCR_october_stability_bonus = 0
+            }
+
+            set_variable = {
+                KCR_railway_consumer_goods_bonus = 0
+            }
+             add_dynamic_modifier = {
+                modifier = KCR_relations_effects
+            }
+        }
+    }
+
+
+    # Енисей — наша артерия
+    focus = {
+        id = KCR_eniseynashaarteriya
+        icon = GFX_focus_KCR_eniseynashaarteriya
+        x = 15
+        y = 3
+
+        cost = 7
+
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+
+        prerequisite = {
+            focus = KCR_zavisimostotsosedey
+        }
+
+        completion_reward = {
+            add_political_power = 100
+        }
+    }
+
+
+    # Речной узел
+    focus = {
+        id = KCR_rechnoyuzel
+        icon = GFX_focus_KCR_rechnoyuzel
+        x = 15
+        y = 4
+
+        cost = 6
+
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+
+        prerequisite = {
+            focus = KCR_eniseynashaarteriya
+        }
+
+        completion_reward = {
+            add_political_power = 75
+        }
+    }
+
+
+    # Местному бизнесу
+    focus = {
+        id = KCR_mestnomubiznesu
+        icon = GFX_focus_KCR_mestnomubiznesu
+        x = 11
+        y = 3
+
+        cost = 4
+
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+
+        prerequisite = {
+            focus = KCR_zavisimostotsosedey
+        }
+
+        mutually_exclusive = {
+            focus = KCR_krupnomukapitalu
+        }
+
+        completion_reward = {
+            add_political_power = 75
+            add_stability = 0.05
+
+            add_ideas = KCR_economic_small_business
+        }
+    }
+
+
+    # Крупному капиталу
+    focus = {
+        id = KCR_krupnomukapitalu
+        icon = GFX_focus_KCR_krupnomukapitalu
+        x = 13
+        y = 3
+
+        cost = 4
+
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+
+        prerequisite = {
+            focus = KCR_zavisimostotsosedey
+        }
+
+        mutually_exclusive = {
+            focus = KCR_mestnomubiznesu
+        }
+
+        completion_reward = {
+            add_political_power = 100
+            add_stability = -0.05
+
+            add_ideas = KCR_economic_large_business
+        }
+    }
+
+
+    # Расширить торговлю
+    focus = {
+        id = KCR_rasshirittorgovlyu
+        icon = GFX_focus_KCR_rasshirittorgovlyu
+        x = 12
+        y = 5
+
+        cost = 6
+
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+
+        prerequisite = {
+            focus = KCR_rechnoyuzel
+        }
+
+        prerequisite = {
+            focus = KCR_mestnomubiznesu
+            focus = KCR_krupnomukapitalu
+        }
+
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = KCR_economic_base_2
+                add_idea = KCR_economic_base_3
+            }
+        }
+    }
+
+
+    # Порты и мастерские
+    focus = {
+        id = KCR_portyimasterskie
+        icon = GFX_focus_KCR_portyimasterskie
+        x = 15
+        y = 5
+
+        cost = 8
+
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+
+        prerequisite = {
+            focus = KCR_rechnoyuzel
+        }
+
+        completion_reward = {
+            add_political_power = 50
+            32 = {
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = dockyard
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            33 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 4
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+
+    # ============================================================
+    # ФИНАЛЬНЫЙ ФОКУС
+    # ============================================================
+
+    # Новый порядок
+    focus = {
+        id = KCR_novyyporyadok
+        icon = GFX_focus_KCR_novyyporyadok
+
+        x = 8
+        y = 6
+
+        cost = 10
+
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        prerequisite = {
+            focus = KCR_zakrepitsya_na_kresle
+            focus = KCR_opora_centra
+            focus = KCR_novyy_kurs
+            focus = KCR_centr_dlya_vseh
+            focus = KCR_krasnyy_rayon
+        }
+
+        prerequisite = {
+            focus = KCR_rasshirittorgovlyu
+        }
+
+        prerequisite = {
+            focus = KCR_portyimasterskie
+        }
+
+        completion_reward = {
+            if = {
+                limit = {
+                    has_country_flag = KCR_party_governor_won
+                    has_country_flag = KCR_mayor_won
+                }
+                country_event = kcr.16
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = KCR_party_governor_won
+                    has_country_flag = KCR_governor_won
+                }
+                country_event = kcr.8
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = KCR_party_nationalists_won
+                    has_country_flag = KCR_governor_won
+                }
+                country_event = kcr.9
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = KCR_party_justice_won
+                    has_country_flag = KCR_governor_won
+                }
+                country_event = kcr.10
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = KCR_party_proletariat_won
+                    has_country_flag = KCR_governor_won
+                }
+                country_event = kcr.11
+            }
+        }
+    }
+}

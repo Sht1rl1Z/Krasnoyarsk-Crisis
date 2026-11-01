@@ -1,0 +1,14 @@
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		265 266 269 270 271 276 278 279 283 285 288 291 292 295 299 300 301 302 303 
+	}
+	history={ 
+		owner = SVD
+		add_core_of = SVD 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

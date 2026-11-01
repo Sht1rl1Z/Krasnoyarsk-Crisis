@@ -1,0 +1,164 @@
+capital = 30
+
+oob = "KCR_1936"
+
+if = {
+    limit = {
+        NOT = {
+            has_dlc = "No Step Back"
+        }
+    }
+    set_oob = "KCR_2014"
+}
+
+if = {
+    limit = {
+        has_dlc = "No Step Back"
+    }
+    set_oob = "KCR_2014_nsb"
+}
+set_party_name = {
+    ideology = KCR_municipalism
+    long_name = KCR_municipalism_long
+    name = KCR_municipalism_short
+}
+
+set_party_name = {
+    ideology = KCR_regionalism
+    long_name = KCR_regionalism_long
+    name = KCR_regionalism_short
+}
+
+set_party_name = {
+    ideology = KCR_soviet_socialism
+    long_name = KCR_soviet_socialism_long
+    name = KCR_soviet_socialism_short
+}
+
+set_party_name = {
+    ideology = KCR_national_populism
+    long_name = KCR_national_populism_long
+    name = KCR_national_populism_short
+}
+
+set_party_name = {
+    ideology = KCR_social_reformism
+    long_name = KCR_social_reformism_long
+    name = KCR_social_reformism_short
+}
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+    basic_train = 1
+    infantry_weapons = 1
+    support_weapons = 1
+    tech_trucks = 1
+    tech_support = 1
+    gw_artillery = 1
+    paratroopers = 1
+    marines = 1
+    tech_mountaineers = 1
+    motorised_infantry = 1
+    armored_car1 = 1
+    tech_engineers = 1
+    tech_recon = 1
+    tech_military_police = 1
+    tech_maintenance_company = 1
+    interwar_antiair = 1
+    interwar_antitank = 1
+    interwar_artillery = 1
+    basic_machine_tools = 1
+    fuel_silos = 1
+    construction1 = 1
+    synth_oil_experiments = 1
+    electronic_mechanical_engineering = 1
+    basic_fire_control_system = 1
+    basic_fortification_tech = 1
+}
+
+recruit_character = KCR_edkham_akbulatov
+recruit_character = KCR_lev_kuznetsov
+recruit_character = KCR_viktor_tolokonsky
+recruit_character = KCR_valery_sergienko
+recruit_character = KCR_denis_pobilat
+recruit_character = KCR_nikolay_trikman
+
+# Министры KCR
+recruit_character = KCR_municipalism_finance_1
+recruit_character = KCR_municipalism_finance_2
+recruit_character = KCR_municipalism_economy_1
+recruit_character = KCR_municipalism_economy_2
+recruit_character = KCR_municipalism_interior_1
+recruit_character = KCR_municipalism_interior_2
+recruit_character = KCR_municipalism_infrastructure_1
+recruit_character = KCR_municipalism_infrastructure_2
+recruit_character = KCR_regionalism_finance_1
+recruit_character = KCR_regionalism_finance_2
+recruit_character = KCR_regionalism_economy_1
+recruit_character = KCR_regionalism_economy_2
+recruit_character = KCR_regionalism_interior_1
+recruit_character = KCR_regionalism_interior_2
+recruit_character = KCR_regionalism_infrastructure_1
+recruit_character = KCR_regionalism_infrastructure_2
+recruit_character = KCR_soviet_socialism_finance_1
+recruit_character = KCR_soviet_socialism_finance_2
+recruit_character = KCR_soviet_socialism_economy_1
+recruit_character = KCR_soviet_socialism_economy_2
+recruit_character = KCR_soviet_socialism_interior_1
+recruit_character = KCR_soviet_socialism_interior_2
+recruit_character = KCR_soviet_socialism_infrastructure_1
+recruit_character = KCR_soviet_socialism_infrastructure_2
+recruit_character = KCR_national_populism_finance_1
+recruit_character = KCR_national_populism_finance_2
+recruit_character = KCR_national_populism_economy_1
+recruit_character = KCR_national_populism_economy_2
+recruit_character = KCR_national_populism_interior_1
+recruit_character = KCR_national_populism_interior_2
+recruit_character = KCR_national_populism_infrastructure_1
+recruit_character = KCR_national_populism_infrastructure_2
+recruit_character = KCR_social_reformism_finance_1
+recruit_character = KCR_social_reformism_finance_2
+recruit_character = KCR_social_reformism_economy_1
+recruit_character = KCR_social_reformism_economy_2
+recruit_character = KCR_social_reformism_interior_1
+recruit_character = KCR_social_reformism_interior_2
+recruit_character = KCR_social_reformism_infrastructure_1
+recruit_character = KCR_social_reformism_infrastructure_2
+
+if = {
+    limit = {
+        has_dlc = "La Resistance"
+    }
+    set_technology = {
+        armored_car1 = 1
+    }
+}
+
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.49
+set_war_support = 0.77
+
+add_ideas = {
+    KCR_administrative_chaos_1
+    KCR_economic_base_1
+}
+
+set_politics = {
+    ruling_party = KCR_municipalism
+    last_election = "2010.1.1"
+    election_frequency = 60
+    elections_allowed = yes
+}
+
+set_popularities = {
+    KCR_municipalism = 40
+    KCR_regionalism = 40
+    KCR_soviet_socialism = 10
+    KCR_national_populism = 5
+    KCR_social_reformism = 5
+}

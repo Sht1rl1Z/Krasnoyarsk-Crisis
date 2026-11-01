@@ -1,0 +1,641 @@
+air_wings = {
+		369 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	295 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	33 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	311 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	294 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	113 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	22 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	234 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	177 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	102 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	245 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	300 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	362 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	49 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	25 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	254 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	130 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	211 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	51 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	62 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	63 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	159 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	26 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	146 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	29 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	292 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	298 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	222 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	233 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	291 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	185 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	260 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	226 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	198 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	158 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	91 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	287 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	126 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	305 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	367 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	48 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	144 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	231 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	78 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	18 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	54 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	169 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	132 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	141 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	186 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	243 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	142 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	149 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	273 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	68 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	203 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	189 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	223 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	238 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	313 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	120 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	297 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	252 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	81 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	224 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	187 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	66 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	316 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	212 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	28 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	79 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	364 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	164 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	157 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	324 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	59 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	214 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	363 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	90 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	88 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	191 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	325 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	110 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	265 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	336 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	285 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	289 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	216 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	244 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	184 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	156 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	306 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	272 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	232 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	205 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	237 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	165 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	129 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	56 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	1 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	52 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	337 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	349 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	302 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	227 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	104 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	290 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	106 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	173 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	282 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	201 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	38 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	333 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	80 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	145 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	209 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	304 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	220 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	99 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	53 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	109 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	46 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	135 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	27 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	166 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	251 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	261 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	210 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	153 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	163 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	115 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	148 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	175 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	94 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	217 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	155 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	174 = { 								
+		fighter_equipment_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	317 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	248 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	270 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	167 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	100 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	334 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	2 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	123 = { 								
+		tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+tac_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	343 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	348 = { 								
+		nav_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	172 = { 								
+		CAS_equipment_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	268 = { 								
+		strat_bomber_equipment_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+
+
+}

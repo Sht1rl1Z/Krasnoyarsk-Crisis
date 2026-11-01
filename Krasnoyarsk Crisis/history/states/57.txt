@@ -1,0 +1,14 @@
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		3710 3715 3716 3719 3725 3734 3737 3743 3744 3748 3758 3766 3769 3771 3776 3788 3791 3792 3794 3803 3810 3812 3816 5571 5574 5579 5589 5592 14953 14954 14955 14956 14957 14986 
+	}
+	history={ 
+		owner = LEN
+		add_core_of = LEN 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

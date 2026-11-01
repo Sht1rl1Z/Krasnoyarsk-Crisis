@@ -1,0 +1,415 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            KCR = {
+                country_event = {
+                    id = kcr.1
+                    days = 2
+                }
+                country_event = {
+                    id = news.1
+                    days = 30
+                }
+            }
+        }
+    }
+    on_daily_KCR = {
+        effect = {
+            if = {
+                limit = {
+                    tag = KCR
+                    date > 2014.1.12
+                    NOT = {
+                        has_country_flag = KCR_governor_kuznetsov
+                    }
+                }
+
+                set_country_flag = KCR_governor_kuznetsov
+            }
+            if = {
+                limit = {
+                    tag = KCR
+                    date > 2014.9.23
+                    has_country_flag = KCR_party_struggle_started
+                    NOT = {
+                        has_country_flag = KCR_party_struggle_finished
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = { KCR_party_governor > KCR_party_proletariat }
+                        check_variable = { KCR_party_governor > KCR_party_justice }
+                        check_variable = { KCR_party_governor > KCR_party_nationalists }
+                    }
+                    country_event = { id = kcr.2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { KCR_party_nationalists > KCR_party_governor }
+                        check_variable = { KCR_party_nationalists > KCR_party_proletariat }
+                        check_variable = { KCR_party_nationalists > KCR_party_justice }
+                    }
+                    country_event = { id = kcr.3 }
+                }
+                else_if = { 
+                    limit = {
+                        check_variable = { KCR_party_justice > KCR_party_governor }
+                        check_variable = { KCR_party_justice > KCR_party_nationalists }
+                        check_variable = { KCR_party_justice > KCR_party_proletariat }
+                    }
+                    country_event = { id = kcr.4 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { KCR_party_proletariat > KCR_party_governor }
+                        check_variable = { KCR_party_proletariat > KCR_party_nationalists }
+                        check_variable = { KCR_party_proletariat > KCR_party_justice }
+                    }
+                    country_event = { id = kcr.5 }
+                }
+            }
+
+            # =====================================
+            # 100+ — КРИЗИС
+            # =====================================
+
+            if = {
+                limit = {
+                    check_variable = {
+                        var = KCR_cabinet_tension
+                        value = 100
+                        compare = greater_than_or_equals
+                    }
+
+                    NOT = {
+                        has_country_flag = KCR_cabinet_crisis_started
+                    }
+
+                    NOT = {
+                        has_country_flag = KCR_cabinet_conflict_finished
+                    }
+                }
+
+                remove_ideas = KCR_political_tension_low
+                remove_ideas = KCR_political_tension_medium
+                remove_ideas = KCR_political_tension_high
+
+                set_country_flag = KCR_cabinet_crisis_started
+            }
+
+            # =====================================
+            # 75–99 — ВЫСОКАЯ
+            # =====================================
+
+            else_if = {
+                limit = {
+                    check_variable = {
+                        var = KCR_cabinet_tension
+                        value = 75
+                        compare = greater_than_or_equals
+                    }
+                }
+
+                remove_ideas = KCR_political_tension_low
+                remove_ideas = KCR_political_tension_medium
+
+                if = {
+                    limit = {
+                        NOT = {
+                            has_idea = KCR_political_tension_high
+                        }
+                    }
+
+                    add_ideas = KCR_political_tension_high
+                }
+            }
+
+            # =====================================
+            # 50–74 — СРЕДНЯЯ
+            # =====================================
+
+            else_if = {
+                limit = {
+                    check_variable = {
+                        var = KCR_cabinet_tension
+                        value = 50
+                        compare = greater_than_or_equals
+                    }
+                }
+
+                remove_ideas = KCR_political_tension_low
+                remove_ideas = KCR_political_tension_high
+
+                if = {
+                    limit = {
+                        NOT = {
+                            has_idea = KCR_political_tension_medium
+                        }
+                    }
+
+                    add_ideas = KCR_political_tension_medium
+                }
+            }
+
+            # =====================================
+            # 25–49 — НИЗКАЯ
+            # =====================================
+
+            else_if = {
+                limit = {
+                    check_variable = {
+                        var = KCR_cabinet_tension
+                        value = 25
+                        compare = greater_than_or_equals
+                    }
+                }
+
+                remove_ideas = KCR_political_tension_medium
+                remove_ideas = KCR_political_tension_high
+
+                if = {
+                    limit = {
+                        NOT = {
+                            has_idea = KCR_political_tension_low
+                        }
+                    }
+
+                    add_ideas = KCR_political_tension_low
+                }
+            }
+
+            # =====================================
+            # 0–24 — НЕТ ДУХА
+            # =====================================
+
+            else = {
+
+                remove_ideas = KCR_political_tension_low
+                remove_ideas = KCR_political_tension_medium
+                remove_ideas = KCR_political_tension_high
+            }
+            if = {
+                limit = {
+                    has_country_flag = KCR_trading_started
+                    NOT = {
+                        has_country_flag = KCR_trading_finished
+                    }
+                }
+
+                set_variable = {
+                    KCR_sovetsky_pp_bonus = KCR_opinion_of_the_sovetsky_district
+                }
+
+                divide_variable = {
+                    KCR_sovetsky_pp_bonus = 500
+                }
+
+                set_variable = {
+                    KCR_october_stability_bonus = KCR_opinion_of_the_october_district
+                }
+
+                divide_variable = {
+                    KCR_october_stability_bonus = 500
+                }
+
+                set_variable = {
+                    KCR_railway_consumer_goods_bonus = KCR_opinion_of_the_railway_district
+                }
+
+                divide_variable = {
+                    KCR_railway_consumer_goods_bonus = -500
+                }
+                add_to_variable = {
+                    KCR_trading_gui_update = 1
+                }
+            }
+        }
+    }
+    on_monthly_KCR = {
+
+        effect = {
+
+            # =====================================================
+            # БОРЬБА КАБИНЕТОВ
+            # Работает только пока не завершён "Новый порядок"
+            # =====================================================
+
+            if = {
+
+                limit = {
+
+                    tag = KCR
+
+                    NOT = {
+                        has_country_flag = KCR_cabinet_conflict_finished
+                    }
+                }
+
+                # =================================================
+                # ЕСЛИ МЭРИЯ СИЛЬНЕЕ
+                # =================================================
+
+                if = {
+
+                    limit = {
+                        check_variable = {
+                            KCR_mayor_influence > KCR_governor_influence
+                        }
+                    }
+
+                    add_to_variable = {
+                        KCR_mayor_influence = 1
+                    }
+                }
+
+
+                # =================================================
+                # ЕСЛИ ГУБЕРНАТОР СИЛЬНЕЕ
+                # =================================================
+
+                if = {
+
+                    limit = {
+                        check_variable = {
+                            KCR_governor_influence > KCR_mayor_influence
+                        }
+                    }
+
+                    add_to_variable = {
+                        KCR_governor_influence = 1
+                    }
+                }
+
+
+                # =================================================
+                # СЛУЧАЙНЫЕ АППАРАТНЫЕ СОБЫТИЯ
+                # =================================================
+
+                random_list = {
+
+                    70 = {
+
+                    }
+
+                    15 = {
+
+                        add_to_variable = {
+                            KCR_mayor_influence = 3
+                        }
+
+                        add_to_variable = {
+                            KCR_governor_influence = -3
+                        }
+
+                        add_to_variable = {
+                            KCR_cabinet_tension = 2
+                        }
+                    }
+
+                    15 = {
+
+                        add_to_variable = {
+                            KCR_governor_influence = 3
+                        }
+                        add_to_variable = {
+                            KCR_mayor_influence = -3
+                        }
+
+                        add_to_variable = {
+                            KCR_cabinet_tension = 2
+                        }
+                    }
+                }
+
+
+                # =================================================
+                # ОГРАНИЧЕНИЯ ВЛИЯНИЯ
+                # =================================================
+
+                if = {
+
+                    limit = {
+                        check_variable = {
+                            KCR_mayor_influence > 100
+                        }
+                    }
+
+                    set_variable = {
+                        KCR_mayor_influence = 100
+                    }
+                }
+
+                if = {
+
+                    limit = {
+                        check_variable = {
+                            KCR_mayor_influence < 0
+                        }
+                    }
+
+                    set_variable = {
+                        KCR_mayor_influence = 0
+                    }
+                }
+
+
+                if = {
+
+                    limit = {
+                        check_variable = {
+                            KCR_governor_influence > 100
+                        }
+                    }
+
+                    set_variable = {
+                        KCR_governor_influence = 100
+                    }
+                }
+
+                if = {
+
+                    limit = {
+                        check_variable = {
+                            KCR_governor_influence < 0
+                        }
+                    }
+
+                    set_variable = {
+                        KCR_governor_influence = 0
+                    }
+                }
+
+
+                # =================================================
+                # ОГРАНИЧЕНИЯ НАПРЯЖЁННОСТИ
+                # =================================================
+
+                if = {
+
+                    limit = {
+                        check_variable = {
+                            KCR_cabinet_tension > 100
+                        }
+                    }
+
+                    set_variable = {
+                        KCR_cabinet_tension = 100
+                    }
+                }
+
+                if = {
+
+                    limit = {
+                        check_variable = {
+                            KCR_cabinet_tension < 0
+                        }
+                    }
+
+                    set_variable = {
+                        KCR_cabinet_tension = 0
+                    }
+                }
+            }
+        }
+    }
+}

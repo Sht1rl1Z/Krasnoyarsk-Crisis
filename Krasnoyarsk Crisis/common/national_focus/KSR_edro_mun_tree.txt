@@ -1,0 +1,27 @@
+﻿focus_tree = {
+    id = KSR_edro_mun_tree
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 100
+            tag = KCR
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = KCR_edro_centrbezcentra
+        icon = GFX_focus_KCR_centrbezcentra
+
+        x = 8
+        y = 0
+
+        cost = 5
+
+        cancelable = no
+        
+    }
+}

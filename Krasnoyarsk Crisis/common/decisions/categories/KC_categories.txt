@@ -1,0 +1,60 @@
+KCR_cabinet_conflict_category = {
+
+    icon = GFX_decision_category_political
+
+    allowed = {
+        original_tag = KCR
+    }
+
+    visible = {
+        tag = KCR
+        has_country_flag = KCR_cabinet_conflict_started
+        NOT = {
+            has_country_flag = KCR_cabinet_conflict_finished
+        }
+    }
+    scripted_gui = KCR_cabinet_conflict_gui
+
+    priority = 15
+    visible_when_empty = no
+}
+KCR_trading_category = {
+    icon = GFX_decision_category_political
+
+    allowed = {
+        original_tag = KCR
+    }
+
+    visible = {
+        tag = KCR
+        has_country_flag = KCR_trading_started
+        NOT = {
+            has_country_flag = KCR_trading_finished
+        }
+    }
+    scripted_gui = KCR_trading_gui
+
+    priority = 10
+    visible_when_empty = yes
+}
+KCR_party_struggle_category = {
+
+    icon = GFX_decision_category_political
+
+    allowed = {
+        original_tag = KCR
+    }
+
+    visible = {
+        tag = KCR
+        has_country_flag = KCR_party_struggle_started
+        NOT = {
+            has_country_flag = KCR_party_struggle_finished
+        }
+    }
+
+    scripted_gui = KCR_party_struggle_gui
+
+    priority = 20
+    visible_when_empty = yes
+}

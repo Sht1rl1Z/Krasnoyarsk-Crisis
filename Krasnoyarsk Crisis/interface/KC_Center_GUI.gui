@@ -1,0 +1,135 @@
+guiTypes = {
+    
+    containerWindowType = {
+        name = "KCR_party_struggle_container"
+        position = { x = 0 y = 0 }
+        size = { width = 500 height = 450 }
+
+        instantTextBoxType = {
+            name = "KCR_party_struggle_intro"
+            position = { x = 10 y = -10 }
+            font = "VCR02_12"
+            text = "KCR_party_struggle_intro"
+            maxWidth = 480
+            maxHeight = 100
+            format = left
+        }
+
+        iconType  = {
+            name = "KCR_elections_decision_icon"
+            spriteType = "GFX_KCR_elections_decision"
+            position = { x = 50 y = 100 }
+        }
+        
+        # Единый Центр
+        iconType = {
+            name = "KCR_party_edro_icon"
+            spriteType = "GFX_ideology_KCR_edro_group"
+            position = { x = 10 y = 270 }
+        }
+
+        instantTextBoxType = {
+            name = "KCR_party_edro_label"
+            position = { x = 60 y = 280 }
+            font = "VCR02_12"
+            text = "KCR_party_edro_label"
+            maxWidth = 280
+            maxHeight = 25
+            format = left
+        }
+
+        instantTextBoxType = {
+            name = "KCR_party_edro_value"
+            position = { x = 350 y = 280 }
+            font = "VCR02_12"
+            text = "[?KCR_party_governor|0] %"
+            maxWidth = 100
+            maxHeight = 25
+            format = right
+        }
+
+        # ЛДПЦ
+        iconType = {
+            name = "KCR_party_ldpc_icon"
+            spriteType = "GFX_ideology_KCR_ldpc_group"
+            position = { x = 10 y = 315 }
+        }
+
+        instantTextBoxType = {
+            name = "KCR_party_ldpc_label"
+            position = { x = 60 y = 325 }
+            font = "VCR02_12"
+            text = "KCR_party_ldpc_label"
+            maxWidth = 280
+            maxHeight = 25
+            format = left
+        }
+
+        instantTextBoxType = {
+            name = "KCR_party_ldpc_value"
+            position = { x = 350 y = 325 }
+            font = "VCR02_12"
+            text = "[?KCR_party_nationalists|0] %"
+            maxWidth = 100
+            maxHeight = 25
+            format = right
+        }
+
+        # СР
+        iconType = {
+            name = "KCR_party_sc_icon"
+            spriteType = "GFX_ideology_KCR_sc_group"
+            position = { x = 10 y = 360 }
+        }
+
+        instantTextBoxType = {
+            name = "KCR_party_sc_label"
+            position = { x = 60 y = 365 }
+            font = "VCR02_12"
+            text = "KCR_party_sr_label"
+            maxWidth = 280
+            maxHeight = 25
+            format = left
+        }
+
+        instantTextBoxType = {
+            name = "KCR_party_sc_value"
+            position = { x = 350 y = 370 }
+            font = "VCR02_12"
+            text = "[?KCR_party_justice|0] %"
+            maxWidth = 100
+            maxHeight = 25
+            format = right
+        }
+
+        # КПЦ
+        iconType = {
+            name = "KCR_party_kpc_icon"
+            spriteType = "GFX_ideology_KCR_kpc_group"
+            position = { x = 10 y = 405 }
+        }
+
+        instantTextBoxType = {
+            name = "KCR_party_kpc_label"
+            position = { x = 60 y = 418 }
+            font = "VCR02_12"
+            text = "KCR_party_kpc_label"
+            maxWidth = 280
+            maxHeight = 25
+            format = left
+        }
+
+        instantTextBoxType = {
+            name = "KCR_party_kpc_value"
+            position = { x = 350 y = 418 }
+            font = "VCR02_12"
+            text = "[?KCR_party_proletariat|0] %"
+            maxWidth = 100
+            maxHeight = 25
+            format = right
+        }
+
+
+    }
+
+}

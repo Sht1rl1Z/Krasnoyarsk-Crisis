@@ -1,0 +1,14 @@
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		3418 3422 3427 3434 3438 3440 3443 6910 6911 6912 6913 6916 6918 6922 6925 6929 6932 6933 6935 6938 9699 9707 9708 9709 9713 9723 9730 9731 14556 14558 14564 14572 14574 14575 14578 
+	}
+	history={ 
+		owner = OCT 
+		add_core_of = OCT 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

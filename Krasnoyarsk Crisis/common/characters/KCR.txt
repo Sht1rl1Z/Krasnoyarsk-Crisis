@@ -1,0 +1,748 @@
+characters = {
+
+    KCR_edkham_akbulatov = {
+        name = KCR_edkham_akbulatov
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_KCR_edkham_akbulatov
+            }
+        }
+
+        country_leader = {
+            ideology = KCR_municipalism_type
+            traits = { }
+            expire = "2040.1.1.1"
+            id = -1
+        }
+    }
+
+
+    KCR_lev_kuznetsov = {
+        name = KCR_lev_kuznetsov
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_KCR_lev_kuznetsov
+            }
+        }
+
+        country_leader = {
+            ideology = KCR_regionalism_type
+            traits = { }
+            expire = "2040.1.1.1"
+            id = -1
+        }
+    }
+
+
+    KCR_viktor_tolokonsky = {
+        name = KCR_viktor_tolokonsky
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_KCR_viktor_tolokonsky
+            }
+        }
+
+        country_leader = {
+            ideology = KCR_regionalism_type
+            traits = { }
+            expire = "2040.1.1.1"
+            id = -1
+        }
+    }
+
+
+    KCR_valery_sergienko = {
+        name = KCR_valery_sergienko
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_KCR_valery_sergienko
+            }
+        }
+
+        country_leader = {
+            ideology = KCR_soviet_socialism_type
+            traits = { }
+            expire = "2040.1.1.1"
+            id = -1
+        }
+    }
+
+
+    KCR_denis_pobilat = {
+        name = KCR_denis_pobilat
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_KCR_denis_pobilat
+            }
+        }
+
+        country_leader = {
+            ideology = KCR_national_populism_type
+            traits = { }
+            expire = "2040.1.1.1"
+            id = -1
+        }
+    }
+
+
+    KCR_nikolay_trikman = {
+        name = KCR_nikolay_trikman
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_KCR_nikolay_trikman
+            }
+        }
+
+        country_leader = {
+            ideology = KCR_social_reformism_type
+            traits = { }
+            expire = "2040.1.1.1"
+            id = -1
+        }
+    }
+    KCR_municipalism_finance_1 = {
+        name = KCR_municipalism_finance_1_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_municipalism_finance_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_municipalism }
+            traits = { KCR_municipalism_finance_1_trait }
+        }
+    }
+
+    KCR_municipalism_finance_2 = {
+        name = KCR_municipalism_finance_2_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_municipalism_finance_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_municipalism }
+            traits = { KCR_municipalism_finance_2_trait }
+        }
+    }
+
+    KCR_municipalism_economy_1 = {
+        name = KCR_municipalism_economy_1_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_municipalism_economy_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_municipalism }
+            traits = { KCR_municipalism_economy_1_trait }
+        }
+    }
+
+    KCR_municipalism_economy_2 = {
+        name = KCR_municipalism_economy_2_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_municipalism_economy_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_municipalism }
+            traits = { KCR_municipalism_economy_2_trait }
+        }
+    }
+
+    KCR_municipalism_interior_1 = {
+        name = KCR_municipalism_interior_1_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_municipalism_interior_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_municipalism }
+            traits = { KCR_municipalism_interior_1_trait }
+        }
+    }
+
+    KCR_municipalism_interior_2 = {
+        name = KCR_municipalism_interior_2_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_municipalism_interior_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_municipalism }
+            traits = { KCR_municipalism_interior_2_trait }
+        }
+    }
+
+    KCR_municipalism_infrastructure_1 = {
+        name = KCR_municipalism_infrastructure_1_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_municipalism_infrastructure_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_municipalism }
+            traits = { KCR_municipalism_infrastructure_1_trait }
+        }
+    }
+
+    KCR_municipalism_infrastructure_2 = {
+        name = KCR_municipalism_infrastructure_2_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_municipalism_infrastructure_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_municipalism }
+            traits = { KCR_municipalism_infrastructure_2_trait }
+        }
+    }
+
+    KCR_regionalism_finance_1 = {
+        name = KCR_regionalism_finance_1_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_regionalism_finance_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_regionalism }
+            traits = { KCR_regionalism_finance_1_trait }
+        }
+    }
+
+    KCR_regionalism_finance_2 = {
+        name = KCR_regionalism_finance_2_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_regionalism_finance_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_regionalism }
+            traits = { KCR_regionalism_finance_2_trait }
+        }
+    }
+
+    KCR_regionalism_economy_1 = {
+        name = KCR_regionalism_economy_1_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_regionalism_economy_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_regionalism }
+            traits = { KCR_regionalism_economy_1_trait }
+        }
+    }
+
+    KCR_regionalism_economy_2 = {
+        name = KCR_regionalism_economy_2_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_regionalism_economy_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_regionalism }
+            traits = { KCR_regionalism_economy_2_trait }
+        }
+    }
+
+    KCR_regionalism_interior_1 = {
+        name = KCR_regionalism_interior_1_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_regionalism_interior_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_regionalism }
+            traits = { KCR_regionalism_interior_1_trait }
+        }
+    }
+
+    KCR_regionalism_interior_2 = {
+        name = KCR_regionalism_interior_2_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_regionalism_interior_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_regionalism }
+            traits = { KCR_regionalism_interior_2_trait }
+        }
+    }
+
+    KCR_regionalism_infrastructure_1 = {
+        name = KCR_regionalism_infrastructure_1_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_regionalism_infrastructure_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_regionalism }
+            traits = { KCR_regionalism_infrastructure_1_trait }
+        }
+    }
+
+    KCR_regionalism_infrastructure_2 = {
+        name = KCR_regionalism_infrastructure_2_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_regionalism_infrastructure_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_regionalism }
+            traits = { KCR_regionalism_infrastructure_2_trait }
+        }
+    }
+
+    KCR_soviet_socialism_finance_1 = {
+        name = KCR_soviet_socialism_finance_1_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_soviet_socialism_finance_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_soviet_socialism }
+            traits = { KCR_soviet_socialism_finance_1_trait }
+        }
+    }
+
+    KCR_soviet_socialism_finance_2 = {
+        name = KCR_soviet_socialism_finance_2_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_soviet_socialism_finance_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_soviet_socialism }
+            traits = { KCR_soviet_socialism_finance_2_trait }
+        }
+    }
+
+    KCR_soviet_socialism_economy_1 = {
+        name = KCR_soviet_socialism_economy_1_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_soviet_socialism_economy_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_soviet_socialism }
+            traits = { KCR_soviet_socialism_economy_1_trait }
+        }
+    }
+
+    KCR_soviet_socialism_economy_2 = {
+        name = KCR_soviet_socialism_economy_2_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_soviet_socialism_economy_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_soviet_socialism }
+            traits = { KCR_soviet_socialism_economy_2_trait }
+        }
+    }
+
+    KCR_soviet_socialism_interior_1 = {
+        name = KCR_soviet_socialism_interior_1_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_soviet_socialism_interior_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_soviet_socialism }
+            traits = { KCR_soviet_socialism_interior_1_trait }
+        }
+    }
+
+    KCR_soviet_socialism_interior_2 = {
+        name = KCR_soviet_socialism_interior_2_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_soviet_socialism_interior_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_soviet_socialism }
+            traits = { KCR_soviet_socialism_interior_2_trait }
+        }
+    }
+
+    KCR_soviet_socialism_infrastructure_1 = {
+        name = KCR_soviet_socialism_infrastructure_1_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_soviet_socialism_infrastructure_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_soviet_socialism }
+            traits = { KCR_soviet_socialism_infrastructure_1_trait }
+        }
+    }
+
+    KCR_soviet_socialism_infrastructure_2 = {
+        name = KCR_soviet_socialism_infrastructure_2_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_soviet_socialism_infrastructure_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_soviet_socialism }
+            traits = { KCR_soviet_socialism_infrastructure_2_trait }
+        }
+    }
+
+    KCR_national_populism_finance_1 = {
+        name = KCR_national_populism_finance_1_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_national_populism_finance_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_national_populism }
+            traits = { KCR_national_populism_finance_1_trait }
+        }
+    }
+
+    KCR_national_populism_finance_2 = {
+        name = KCR_national_populism_finance_2_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_national_populism_finance_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_national_populism }
+            traits = { KCR_national_populism_finance_2_trait }
+        }
+    }
+
+    KCR_national_populism_economy_1 = {
+        name = KCR_national_populism_economy_1_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_national_populism_economy_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_national_populism }
+            traits = { KCR_national_populism_economy_1_trait }
+        }
+    }
+
+    KCR_national_populism_economy_2 = {
+        name = KCR_national_populism_economy_2_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_national_populism_economy_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_national_populism }
+            traits = { KCR_national_populism_economy_2_trait }
+        }
+    }
+
+    KCR_national_populism_interior_1 = {
+        name = KCR_national_populism_interior_1_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_national_populism_interior_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_national_populism }
+            traits = { KCR_national_populism_interior_1_trait }
+        }
+    }
+
+    KCR_national_populism_interior_2 = {
+        name = KCR_national_populism_interior_2_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_national_populism_interior_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_national_populism }
+            traits = { KCR_national_populism_interior_2_trait }
+        }
+    }
+
+    KCR_national_populism_infrastructure_1 = {
+        name = KCR_national_populism_infrastructure_1_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_national_populism_infrastructure_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_national_populism }
+            traits = { KCR_national_populism_infrastructure_1_trait }
+        }
+    }
+
+    KCR_national_populism_infrastructure_2 = {
+        name = KCR_national_populism_infrastructure_2_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_national_populism_infrastructure_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_national_populism }
+            traits = { KCR_national_populism_infrastructure_2_trait }
+        }
+    }
+
+    KCR_social_reformism_finance_1 = {
+        name = KCR_social_reformism_finance_1_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_social_reformism_finance_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_social_reformism }
+            traits = { KCR_social_reformism_finance_1_trait }
+        }
+    }
+
+    KCR_social_reformism_finance_2 = {
+        name = KCR_social_reformism_finance_2_name
+        gender = male
+        advisor = {
+            slot = KCR_finance_minister
+            idea_token = KCR_social_reformism_finance_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_social_reformism }
+            traits = { KCR_social_reformism_finance_2_trait }
+        }
+    }
+
+    KCR_social_reformism_economy_1 = {
+        name = KCR_social_reformism_economy_1_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_social_reformism_economy_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_social_reformism }
+            traits = { KCR_social_reformism_economy_1_trait }
+        }
+    }
+
+    KCR_social_reformism_economy_2 = {
+        name = KCR_social_reformism_economy_2_name
+        gender = male
+        advisor = {
+            slot = KCR_economy_minister
+            idea_token = KCR_social_reformism_economy_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_social_reformism }
+            traits = { KCR_social_reformism_economy_2_trait }
+        }
+    }
+
+    KCR_social_reformism_interior_1 = {
+        name = KCR_social_reformism_interior_1_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_social_reformism_interior_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_social_reformism }
+            traits = { KCR_social_reformism_interior_1_trait }
+        }
+    }
+
+    KCR_social_reformism_interior_2 = {
+        name = KCR_social_reformism_interior_2_name
+        gender = male
+        advisor = {
+            slot = KCR_interior_minister
+            idea_token = KCR_social_reformism_interior_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_social_reformism }
+            traits = { KCR_social_reformism_interior_2_trait }
+        }
+    }
+
+    KCR_social_reformism_infrastructure_1 = {
+        name = KCR_social_reformism_infrastructure_1_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_social_reformism_infrastructure_1_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_social_reformism }
+            traits = { KCR_social_reformism_infrastructure_1_trait }
+        }
+    }
+
+    KCR_social_reformism_infrastructure_2 = {
+        name = KCR_social_reformism_infrastructure_2_name
+        gender = male
+        advisor = {
+            slot = KCR_infrastructure_minister
+            idea_token = KCR_social_reformism_infrastructure_2_token
+            ledger = civilian
+            cost = 75
+            can_be_fired = yes
+            removal_cost = 25
+            allowed = { original_tag = KCR }
+            visible = { has_government = KCR_social_reformism }
+            traits = { KCR_social_reformism_infrastructure_2_trait }
+        }
+    }
+}

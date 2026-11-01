@@ -1,0 +1,30 @@
+spriteTypes = {	
+
+	spriteType = {
+        name = "GFX_idea_KCR_economic_base"
+        texturefile = "gfx/interface/ideas/KCR_economic_base.png"
+    }
+	spriteType = {
+        name = "GFX_idea_KCR_administrative_chaos"
+        texturefile = "gfx/interface/ideas/KCR_administrative_chaos.png"
+    }
+	spriteType = {
+        name = "GFX_idea_KCR_economic_small_business"
+        texturefile = "gfx/interface/ideas/KCR_economic_small_business.png"
+    }
+	spriteType = {
+        name = "GFX_idea_KCR_economic_large_business"
+        texturefile = "gfx/interface/ideas/KCR_economic_large_business.png"
+    }
+
+
+	#######################
+	####  PLACEHOLDER  ####
+	#######################
+
+	spriteType = {
+		name = "GFX_idea_PLACEHOLDER_idea_icon"
+		texturefile = "gfx/interface/ideas/idea_PLACEHOLDER.dds"
+	}
+
+}

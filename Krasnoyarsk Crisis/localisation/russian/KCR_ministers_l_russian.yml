@@ -1,0 +1,165 @@
+﻿l_russian:
+ KCR_finance_minister:0 "Министр финансов"
+ KCR_economy_minister:0 "Министр экономики"
+ KCR_interior_minister:0 "Министр внутренних дел"
+ KCR_infrastructure_minister:0 "Министр инфраструктуры"
+
+ KCR_municipalism_finance_1_name:0 "Александр Мельников"
+ KCR_municipalism_finance_1_trait:0 "Сбалансированный бюджет"
+ KCR_municipalism_finance_1_trait_desc:0 "Умеренный подход к финансам укрепляет стабильность, но требует дополнительных расходов."
+
+ KCR_municipalism_finance_2_name:0 "Илья Крылов"
+ KCR_municipalism_finance_2_trait:0 "Муниципальный реформатор"
+ KCR_municipalism_finance_2_trait_desc:0 "Реформирование муниципальных финансов ускоряет принятие решений, но создаёт дополнительную нестабильность."
+
+ KCR_municipalism_economy_1_name:0 "Дмитрий Орлов"
+ KCR_municipalism_economy_1_trait:0 "Городской предприниматель"
+ KCR_municipalism_economy_1_trait_desc:0 "Ставка на городское предпринимательство ускоряет строительство и развитие промышленности."
+
+ KCR_municipalism_economy_2_name:0 "Никита Белов"
+ KCR_municipalism_economy_2_trait:0 "Городской промышленник"
+ KCR_municipalism_economy_2_trait_desc:0 "Поддержка промышленного производства увеличивает выпуск предприятий."
+
+ KCR_municipalism_interior_1_name:0 "Сергей Лапин"
+ KCR_municipalism_interior_1_trait:0 "Муниципальный администратор"
+ KCR_municipalism_interior_1_trait_desc:0 "Эффективное муниципальное управление укрепляет стабильность."
+
+ KCR_municipalism_interior_2_name:0 "Андрей Власов"
+ KCR_municipalism_interior_2_trait:0 "Жёсткий администратор"
+ KCR_municipalism_interior_2_trait_desc:0 "Жёсткая административная политика ускоряет принятие решений, но снижает стабильность."
+
+ KCR_municipalism_infrastructure_1_name:0 "Максим Корнев"
+ KCR_municipalism_infrastructure_1_trait:0 "Городской инженер"
+ KCR_municipalism_infrastructure_1_trait_desc:0 "Развитие городской инфраструктуры ускоряет строительство и транспортное производство."
+
+ KCR_municipalism_infrastructure_2_name:0 "Роман Зорин"
+ KCR_municipalism_infrastructure_2_trait:0 "Транспортный планировщик"
+ KCR_municipalism_infrastructure_2_trait_desc:0 "Рациональное планирование транспорта снижает нагрузку на снабжение."
+
+ KCR_regionalism_finance_1_name:0 "Виктор Кузнецов"
+ KCR_regionalism_finance_1_trait:0 "Краевой финансист"
+ KCR_regionalism_finance_1_trait_desc:0 "Централизация финансов увеличивает политическое влияние, но требует жертв."
+
+ KCR_regionalism_finance_2_name:0 "Михаил Ершов"
+ KCR_regionalism_finance_2_trait:0 "Сторонник финансовой дисциплины"
+ KCR_regionalism_finance_2_trait_desc:0 "Строгая финансовая дисциплина укрепляет стабильность."
+
+ KCR_regionalism_economy_1_name:0 "Павел Сорокин"
+ KCR_regionalism_economy_1_trait:0 "Промышленный координатор"
+ KCR_regionalism_economy_1_trait_desc:0 "Координация промышленности ускоряет строительство и производство."
+
+ KCR_regionalism_economy_2_name:0 "Владимир Нестеров"
+ KCR_regionalism_economy_2_trait:0 "Представитель крупного капитала"
+ KCR_regionalism_economy_2_trait_desc:0 "Крупный капитал способен быстро расширять промышленное производство."
+
+ KCR_regionalism_interior_1_name:0 "Евгений Фёдоров"
+ KCR_regionalism_interior_1_trait:0 "Сторонник вертикали"
+ KCR_regionalism_interior_1_trait_desc:0 "Укрепление административной вертикали повышает политическое влияние и стабильность."
+
+ KCR_regionalism_interior_2_name:0 "Константин Миронов"
+ KCR_regionalism_interior_2_trait:0 "Краевой координатор"
+ KCR_regionalism_interior_2_trait_desc:0 "Координация между краевыми структурами укрепляет управление."
+
+ KCR_regionalism_infrastructure_1_name:0 "Алексей Руденко"
+ KCR_regionalism_infrastructure_1_trait:0 "Краевой строитель"
+ KCR_regionalism_infrastructure_1_trait_desc:0 "Крупные краевые проекты ускоряют развитие инфраструктуры и железных дорог."
+
+ KCR_regionalism_infrastructure_2_name:0 "Олег Тихонов"
+ KCR_regionalism_infrastructure_2_trait:0 "Транспортный координатор"
+ KCR_regionalism_infrastructure_2_trait_desc:0 "Координация транспортной системы улучшает снабжение."
+
+ KCR_soviet_socialism_finance_1_name:0 "Борис Зайцев"
+ KCR_soviet_socialism_finance_1_trait:0 "Государственный плановик"
+ KCR_soviet_socialism_finance_1_trait_desc:0 "Государственное планирование позволяет направлять ресурсы в соответствии с установленными приоритетами."
+
+ KCR_soviet_socialism_finance_2_name:0 "Геннадий Морозов"
+ KCR_soviet_socialism_finance_2_trait:0 "Финансовый комиссар"
+ KCR_soviet_socialism_finance_2_trait_desc:0 "Жёсткий контроль финансов укрепляет государственное управление."
+
+ KCR_soviet_socialism_economy_1_name:0 "Валерий Петров"
+ KCR_soviet_socialism_economy_1_trait:0 "Плановый экономист"
+ KCR_soviet_socialism_economy_1_trait_desc:0 "Плановая экономика позволяет ускорить промышленное производство."
+
+ KCR_soviet_socialism_economy_2_name:0 "Юрий Сафонов"
+ KCR_soviet_socialism_economy_2_trait:0 "Директор промышленного комплекса"
+ KCR_soviet_socialism_economy_2_trait_desc:0 "Управление крупными промышленными предприятиями ускоряет их развитие."
+
+ KCR_soviet_socialism_interior_1_name:0 "Василий Климов"
+ KCR_soviet_socialism_interior_1_trait:0 "Государственный администратор"
+ KCR_soviet_socialism_interior_1_trait_desc:0 "Государственная административная система поддерживает стабильность."
+
+ KCR_soviet_socialism_interior_2_name:0 "Николай Рогов"
+ KCR_soviet_socialism_interior_2_trait:0 "Комиссар порядка"
+ KCR_soviet_socialism_interior_2_trait_desc:0 "Жёсткое поддержание порядка повышает политическую эффективность."
+
+ KCR_soviet_socialism_infrastructure_1_name:0 "Аркадий Волков"
+ KCR_soviet_socialism_infrastructure_1_trait:0 "Инженер Госплана"
+ KCR_soviet_socialism_infrastructure_1_trait_desc:0 "Центральное планирование ускоряет развитие инфраструктуры и железных дорог."
+
+ KCR_soviet_socialism_infrastructure_2_name:0 "Степан Громов"
+ KCR_soviet_socialism_infrastructure_2_trait:0 "Специалист по снабжению"
+ KCR_soviet_socialism_infrastructure_2_trait_desc:0 "Оптимизация снабжения снижает потребление припасов."
+
+ KCR_national_populism_finance_1_name:0 "Роман Чернов"
+ KCR_national_populism_finance_1_trait:0 "Финансовый националист"
+ KCR_national_populism_finance_1_trait_desc:0 "Финансовая политика ориентирована на внутренние интересы региона."
+
+ KCR_national_populism_finance_2_name:0 "Вадим Ковалёв"
+ KCR_national_populism_finance_2_trait:0 "Сторонник бюджетной мобилизации"
+ KCR_national_populism_finance_2_trait_desc:0 "Мобилизация бюджета позволяет быстро увеличить доступные политические ресурсы."
+
+ KCR_national_populism_economy_1_name:0 "Игорь Мартынов"
+ KCR_national_populism_economy_1_trait:0 "Сторонник промышленной мобилизации"
+ KCR_national_populism_economy_1_trait_desc:0 "Промышленная мобилизация направляет производственные мощности на приоритетные задачи."
+
+ KCR_national_populism_economy_2_name:0 "Антон Фадеев"
+ KCR_national_populism_economy_2_trait:0 "Защитник местного производства"
+ KCR_national_populism_economy_2_trait_desc:0 "Поддержка местного производства ускоряет строительство и развитие предприятий."
+
+ KCR_national_populism_interior_1_name:0 "Владислав Егоров"
+ KCR_national_populism_interior_1_trait:0 "Министр общественного порядка"
+ KCR_national_populism_interior_1_trait_desc:0 "Жёсткая политика общественного порядка повышает стабильность."
+
+ KCR_national_populism_interior_2_name:0 "Максим Воронцов"
+ KCR_national_populism_interior_2_trait:0 "Чрезвычайный администратор"
+ KCR_national_populism_interior_2_trait_desc:0 "Чрезвычайные меры позволяют быстро принимать решения."
+
+ KCR_national_populism_infrastructure_1_name:0 "Станислав Козлов"
+ KCR_national_populism_infrastructure_1_trait:0 "Мобилизационный инженер"
+ KCR_national_populism_infrastructure_1_trait_desc:0 "Мобилизационное строительство ускоряет развитие инфраструктуры и железных дорог."
+
+ KCR_national_populism_infrastructure_2_name:0 "Денис Брагин"
+ KCR_national_populism_infrastructure_2_trait:0 "Сторонник автономной инфраструктуры"
+ KCR_national_populism_infrastructure_2_trait_desc:0 "Развитие собственной инфраструктуры уменьшает зависимость от внешних поставок."
+
+ KCR_social_reformism_finance_1_name:0 "Александр Серов"
+ KCR_social_reformism_finance_1_trait:0 "Социальный финансист"
+ KCR_social_reformism_finance_1_trait_desc:0 "Финансовая политика ориентирована на социальную стабильность."
+
+ KCR_social_reformism_finance_2_name:0 "Михаил Лебедев"
+ KCR_social_reformism_finance_2_trait:0 "Реформатор бюджета"
+ KCR_social_reformism_finance_2_trait_desc:0 "Реформирование бюджета позволяет направлять средства на развитие."
+
+ KCR_social_reformism_economy_1_name:0 "Денис Павлов"
+ KCR_social_reformism_economy_1_trait:0 "Социальный экономист"
+ KCR_social_reformism_economy_1_trait_desc:0 "Экономическая политика сочетает развитие промышленности с социальными расходами."
+
+ KCR_social_reformism_economy_2_name:0 "Артём Костин"
+ KCR_social_reformism_economy_2_trait:0 "Модернизатор"
+ KCR_social_reformism_economy_2_trait_desc:0 "Модернизация экономики ускоряет строительство, производство и исследования."
+
+ KCR_social_reformism_interior_1_name:0 "Сергей Лебедев"
+ KCR_social_reformism_interior_1_trait:0 "Общественный реформатор"
+ KCR_social_reformism_interior_1_trait_desc:0 "Социальные реформы укрепляют внутреннюю стабильность."
+
+ KCR_social_reformism_interior_2_name:0 "Кирилл Данилов"
+ KCR_social_reformism_interior_2_trait:0 "Примиритель фракций"
+ KCR_social_reformism_interior_2_trait_desc:0 "Поиск компромисса между политическими группами укрепляет стабильность."
+
+ KCR_social_reformism_infrastructure_1_name:0 "Пётр Андреев"
+ KCR_social_reformism_infrastructure_1_trait:0 "Социальный инфраструктурщик"
+ KCR_social_reformism_infrastructure_1_trait_desc:0 "Инфраструктурные проекты сочетаются с социальной направленностью."
+
+ KCR_social_reformism_infrastructure_2_name:0 "Илья Макаров"
+ KCR_social_reformism_infrastructure_2_trait:0 "Городской модернизатор"
+ KCR_social_reformism_infrastructure_2_trait_desc:0 "Модернизация городской инфраструктуры ускоряет развитие промышленности."

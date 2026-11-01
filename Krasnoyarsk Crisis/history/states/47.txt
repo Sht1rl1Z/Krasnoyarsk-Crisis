@@ -1,0 +1,14 @@
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		2367 2368 2371 2376 2386 2387 2389 2390 2394 2398 2399 2409 2412 2413 10906 10912 10925 10927 10934 14054 14068 14085 14973 14975 
+	}
+	history={ 
+		owner = KIR
+		add_core_of = KIR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

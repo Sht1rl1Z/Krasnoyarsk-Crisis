@@ -1,0 +1,14 @@
+state={
+	id=69
+	name="STATE_69"
+	provinces={
+		1807 1813 1821 1825 1827 1838 1841 1844 1847 1850 4406 4425 5532 5540 5541 5557 5558 10899 10928 15001
+	}
+	history={ 
+		owner = SVD
+		add_core_of = SVD 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

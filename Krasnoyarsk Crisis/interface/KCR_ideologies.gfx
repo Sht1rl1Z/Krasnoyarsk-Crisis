@@ -1,0 +1,38 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_ideology_KCR_municipalism_group"
+        texturefile = "gfx/interface/ideologies/KCR_edro_group_big.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_KCR_regionalism_group"
+        texturefile = "gfx/interface/ideologies/KCR_edro_group_big.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_KCR_soviet_socialism_group"
+        texturefile = "gfx/interface/ideologies/KCR_kpc_group_big.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_KCR_national_populism_group"
+        texturefile = "gfx/interface/ideologies/KCR_ldpc_group_big.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_KCR_social_reformism_group"
+        texturefile = "gfx/interface/ideologies/KCR_sc_group_big.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_KCR_sc_group"
+        texturefile = "gfx/interface/ideologies/KCR_sc_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_KCR_edro_group"
+        texturefile = "gfx/interface/ideologies/KCR_edro_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_KCR_ldpc_group"
+        texturefile = "gfx/interface/ideologies/KCR_ldpc_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_KCR_kpc_group"
+        texturefile = "gfx/interface/ideologies/KCR_kpc_group.dds"
+    }
+}

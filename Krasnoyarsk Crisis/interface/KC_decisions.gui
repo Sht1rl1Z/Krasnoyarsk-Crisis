@@ -1,0 +1,272 @@
+guiTypes = {
+
+    containerWindowType = {
+
+        name = "KCR_trading_opinion_gui"
+
+        position = {
+            x = 0
+            y = 0
+        }
+
+        size = {
+            width = 502
+            height = 258
+        }
+
+        # ========================================================
+        # СОВЕТСКИЙ РАЙОН
+        # ========================================================
+
+        instantTextBoxType = {
+            name = "KCR_sovetsky_opinion_label"
+            position = { x = 10 y = 18 }
+            font = "hoi_16mbs"
+            text = "KCR_sovetsky_opinion"
+            maxWidth = 105
+            maxHeight = 20
+            format = left
+        }
+
+        iconType = {
+            name = "KCR_sovetsky_opinion_bar"
+            spriteType = "GFX_KCR_opinion_bar"
+            position = { x = 120 y = 18 }
+        }
+
+        instantTextBoxType = {
+            name = "KCR_sovetsky_opinion_value"
+            position = { x = 400 y = 18 }
+            font = "hoi_16mbs"
+            text = "KCR_opinion_value_sovetsky"
+            maxWidth = 75
+            maxHeight = 20
+            format = right
+        }
+
+
+        # ========================================================
+        # ОКТЯБРЬСКИЙ РАЙОН
+        # ========================================================
+
+        instantTextBoxType = {
+            name = "KCR_october_opinion_label"
+            position = { x = 10 y = 68 }
+            font = "hoi_16mbs"
+            text = "KCR_october_opinion"
+            maxWidth = 105
+            maxHeight = 20
+            format = left
+        }
+
+        iconType = {
+            name = "KCR_october_opinion_bar"
+            spriteType = "GFX_KCR_opinion_bar"
+            position = { x = 120 y = 68 }
+        }
+
+        instantTextBoxType = {
+            name = "KCR_october_opinion_value"
+            position = { x = 400 y = 68 }
+            font = "hoi_16mbs"
+            text = "KCR_opinion_value_october"
+            maxWidth = 75
+            maxHeight = 20
+            format = right
+        }
+
+
+        # ========================================================
+        # ЖЕЛЕЗНОДОРОЖНЫЙ РАЙОН
+        # ========================================================
+
+        instantTextBoxType = {
+            name = "KCR_railway_opinion_label"
+            position = { x = 10 y = 118 }
+            font = "hoi_16mbs"
+            text = "KCR_railway_opinion"
+            maxWidth = 105
+            maxHeight = 20
+            format = left
+        }
+
+        iconType = {
+            name = "KCR_railway_opinion_bar"
+            spriteType = "GFX_KCR_opinion_bar"
+            position = { x = 120 y = 118 }
+        }
+
+        instantTextBoxType = {
+            name = "KCR_railway_opinion_value"
+            position = { x = 400 y = 118 }
+            font = "hoi_16mbs"
+            text = "KCR_opinion_value_railway"
+            maxWidth = 75
+            maxHeight = 20
+            format = right
+        }
+
+
+        # ========================================================
+        # НУЛЕВАЯ ОТМЕТКА И ШКАЛА
+        # ========================================================
+
+        iconType = {
+            name = "KCR_sovetsky_opinion_zero_marker"
+            spriteType = "GFX_KCR_opinion_zero_marker"
+            position = { x = 269 y = 18 }
+        }
+
+        iconType = {
+            name = "KCR_october_opinion_zero_marker"
+            spriteType = "GFX_KCR_opinion_zero_marker"
+            position = { x = 269 y = 68 }
+        }
+
+        iconType = {
+            name = "KCR_railway_opinion_zero_marker"
+            spriteType = "GFX_KCR_opinion_zero_marker"
+            position = { x = 269 y = 118 }
+        }
+
+        instantTextBoxType = {
+            name = "KCR_opinion_min"
+            position = { x = 120 y = 158 }
+            font = "hoi_16mbs"
+            text = "KCR_opinion_min"
+            maxWidth = 40
+            maxHeight = 20
+            format = left
+        }
+
+        instantTextBoxType = {
+            name = "KCR_opinion_neutral"
+            position = { x = 262 y = 158 }
+            font = "hoi_16mbs"
+            text = "KCR_opinion_neutral"
+            maxWidth = 20
+            maxHeight = 20
+            format = center
+        }
+
+        instantTextBoxType = {
+            name = "KCR_opinion_max"
+            position = { x = 380 y = 158 }
+            font = "hoi_16mbs"
+            text = "KCR_opinion_max"
+            maxWidth = 40
+            maxHeight = 20
+            format = right
+        }
+        instantTextBoxType = {
+            name = "KCR_relations_effects_header"
+            position = { x = 10 y = 183 }
+            font = "hoi_16mbs"
+            text = "KCR_relations_effects_header"
+            maxWidth = 470
+            maxHeight = 20
+            format = left
+        }
+
+        instantTextBoxType = {
+            name = "KCR_KSD_GUI_text"
+            position = { x = 10 y = 204 }
+            font = "hoi_16mbs"
+            text = "KCR_sovetsky_bonus_label"
+            maxWidth = 280
+            maxHeight = 20
+            format = left
+            text = "KSD_GUI_bonus"
+            pdx_tooltip = "KSD_GUI_bonus_name"
+			pdx_tooltip_delayed = "KSD_GUI_bonus_info_tooltip"
+        }
+        instantTextBoxType = {
+            name = "KCR_OCT_GUI_text"
+            position = { x = 10 y = 222 }
+            font = "hoi_16mbs"
+            text = "KCR_october_bonus_label"
+            maxWidth = 280
+            maxHeight = 20
+            format = left
+            text = "OCT_GUI_bonus"
+            pdx_tooltip = "OCT_GUI_bonus_name"
+			pdx_tooltip_delayed = "OCT_GUI_bonus_info_tooltip"
+        }
+        instantTextBoxType = {
+            name = "KCR_KRD_GUI_text"
+            position = { x = 10 y = 240 }
+            font = "hoi_16mbs"
+            text = "KCR_railway_bonus_label"
+            maxWidth = 280
+            maxHeight = 20
+            format = left
+            text = "KRD_GUI_bonus"
+            pdx_tooltip = "KRD_GUI_bonus_name"
+			pdx_tooltip_delayed = "KRD_GUI_bonus_info_tooltip"
+        }
+    }
+    containerWindowType = {
+
+        name = "KCR_cabinet_conflict_opinion_gui"
+
+        position = {
+            x = 0
+            y = 0
+        }
+
+        size = {
+            width = 502
+            height = 658
+        }
+        
+        iconType = {
+            name = "KCR_sovetsky_opinion_bar"
+            spriteType = "GFX_KCR_mayor"
+            position = { x = 60 y = 150 }
+        }
+        iconType = {
+            name = "KCR_governor_tol_portrait"
+            spriteType = "GFX_KCR_governor_tol"
+            position = { x = 290 y = 150 }
+        }
+
+        iconType = {
+            name = "KCR_governor_kuz_portrait"
+            spriteType = "GFX_KCR_governor_kuz"
+            position = { x = 290 y = 150 }
+        }
+        instantTextBoxType = {
+            name = "KCR_mayor_textbox"
+            position = { x = 60 y = 390 }
+            font = "hoi_16mbs"
+            text = "KCR_mayor_textbox_label"
+            maxWidth = 280
+            maxHeight = 20
+            format = left
+            pdx_tooltip = "KCR_mayor_textbox_name"
+			pdx_tooltip_delayed = "KCR_mayor_textbox_info_tooltip"
+        }
+        instantTextBoxType = {
+            name = "KCR_governor_textbox"
+            position = { x = 290 y = 390 }
+            font = "hoi_16mbs"
+            text = "KCR_governor_textbox_label"
+            maxWidth = 280
+            maxHeight = 20
+            format = left
+            pdx_tooltip = "KCR_governor_textbox_name"
+			pdx_tooltip_delayed = "KCR_governor_textbox_info_tooltip"
+        }
+        instantTextBoxType = {
+            name = "KCR_cabinet_tension_textbox"
+            position = { x = 290 y = 0 }
+            font = "hoi_16mbs"
+            text = "KCR_cabinet_tension_label"
+            maxWidth = 280
+            maxHeight = 20
+            format = left
+            pdx_tooltip = "KCR_cabinet_tension_name"
+			pdx_tooltip_delayed = "KCR_cabinet_tension_info_tooltip"
+        }
+    }
+}

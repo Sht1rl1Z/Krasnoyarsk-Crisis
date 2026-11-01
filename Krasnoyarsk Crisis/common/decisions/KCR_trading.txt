@@ -1,0 +1,382 @@
+KCR_trading_category = {
+
+    KCR_weakening_of_positions = {
+
+        icon = GFX_decision_generic_diplomatic_action
+
+        activation = {
+            tag = KCR
+            has_country_flag = KCR_trading_started
+            NOT = {
+                has_country_flag = KCR_trading_finished
+            }
+        }
+
+        allowed = {
+            original_tag = KCR
+        }
+
+        available = {
+            always = no
+        }
+
+        is_good = no
+
+        selectable_mission = no
+
+        days_mission_timeout = 60
+
+        complete_effect = {
+            random_list = {
+
+                33 = {
+                    add_to_variable = {
+                        KCR_opinion_of_the_sovetsky_district = -10
+                    }
+
+                    add_to_variable = {
+                        KCR_sovetsky_opinion_progress = -10
+                    }
+
+                    add_to_variable = {
+                        KCR_trading_gui_update = 1
+                    }
+                }
+
+                33 = {
+                    add_to_variable = {
+                        KCR_opinion_of_the_october_district = -10
+                    }
+
+                    add_to_variable = {
+                        KCR_october_opinion_progress = -10
+                    }
+
+                    add_to_variable = {
+                        KCR_trading_gui_update = 1
+                    }
+                }
+
+                33 = {
+                    add_to_variable = {
+                        KCR_opinion_of_the_railway_district = -10
+                    }
+
+                    add_to_variable = {
+                        KCR_railway_opinion_progress = -10
+                    }
+
+                    add_to_variable = {
+                        KCR_trading_gui_update = 1
+                    }
+                }
+                
+                1 = {
+                    add_to_variable = {
+                        KCR_opinion_of_the_railway_district = -10
+                    }
+                    add_to_variable = {
+                        KCR_opinion_of_the_october_district = -10
+                    }
+                    add_to_variable = {
+                    KCR_opinion_of_the_sovetsky_district = -10
+                    }
+                    add_to_variable = {
+                        KCR_sovetsky_opinion_progress = -10
+                    }
+                    add_to_variable = {
+                        KCR_october_opinion_progress = -10
+                    }
+                    add_to_variable = {
+                        KCR_railway_opinion_progress = -10
+                    }
+
+                    add_to_variable = {
+                        KCR_trading_gui_update = 1
+                    }
+                }
+            }
+        }
+    }
+
+    KCR_coruption_in_the_enemy_country = {
+
+        icon = GFX_decision_generic_diplomatic_action
+
+        activation = {
+            tag = KCR
+            has_country_flag = KCR_trading_started
+            NOT = {
+                has_country_flag = KCR_trading_finished
+            }
+        }
+        visible = {
+            has_completed_focus = KCR_eniseynashaarteriya   
+        }
+
+        allowed = {
+            original_tag = KCR
+        }
+
+        is_good = yes
+
+        cost = 75
+        days_remove = 14
+        days_re_enable = 60
+        fire_only_once = no
+
+        complete_effect = {
+            KCR = {
+                country_event = kcr.13
+            }
+        }
+    }
+
+    KCR_promote_complany = {
+
+        icon = GFX_decision_generic_diplomatic_action
+
+        activation = {
+            tag = KCR
+            has_country_flag = KCR_trading_started
+            NOT = {
+                has_country_flag = KCR_trading_finished
+            }
+        }
+        visible = {
+            has_completed_focus = KCR_eniseynashaarteriya   
+        }
+
+        allowed = {
+            original_tag = KCR
+        }
+
+        is_good = yes
+
+        cost = 50
+        days_remove = 20
+        days_re_enable = 40
+        fire_only_once = no
+
+        complete_effect = {
+            random_list = {
+
+                33 = {
+                    add_to_variable = {
+                        KCR_opinion_of_the_sovetsky_district = 10
+                    }
+
+                    add_to_variable = {
+                        KCR_sovetsky_opinion_progress = 10
+                    }
+
+                    add_to_variable = {
+                        KCR_trading_gui_update = 1
+                    }
+                }
+
+                33 = {
+                    add_to_variable = {
+                        KCR_opinion_of_the_october_district = 10
+                    }
+
+                    add_to_variable = {
+                        KCR_october_opinion_progress = 10
+                    }
+
+                    add_to_variable = {
+                        KCR_trading_gui_update = 1
+                    }
+                }
+
+                33 = {
+                    add_to_variable = {
+                        KCR_opinion_of_the_railway_district = 10
+                    }
+
+                    add_to_variable = {
+                        KCR_railway_opinion_progress = 10
+                    }
+
+                    add_to_variable = {
+                        KCR_trading_gui_update = 1
+                    }
+                }
+                
+                1 = {
+                    add_to_variable = {
+                        KCR_opinion_of_the_railway_district = 10
+                    }
+                    add_to_variable = {
+                        KCR_opinion_of_the_october_district = 10
+                    }
+                    add_to_variable = {
+                    KCR_opinion_of_the_sovetsky_district = 10
+                    }
+                    add_to_variable = {
+                        KCR_sovetsky_opinion_progress = 10
+                    }
+                    add_to_variable = {
+                        KCR_october_opinion_progress = 10
+                    }
+                    add_to_variable = {
+                        KCR_railway_opinion_progress = 10
+                    }
+
+                    add_to_variable = {
+                        KCR_trading_gui_update = 1
+                    }
+                }
+            }
+        }
+    }
+
+    KCR_negotiations_with_the_sovetsky_district = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        visible = {
+            has_country_flag = KCR_trading_started
+        }
+
+        cost = 30
+        days_remove = 14
+        days_re_enable = 30
+        fire_only_once = no
+
+        complete_effect = {
+
+            add_to_variable = {
+                KCR_opinion_of_the_sovetsky_district = 10
+            }
+
+            add_to_variable = {
+                KCR_sovetsky_opinion_progress = 10
+            }
+
+            add_to_variable = {
+                KCR_trading_gui_update = 1
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_opinion_of_the_sovetsky_district > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_opinion_of_the_sovetsky_district = 100
+                }
+
+                set_variable = {
+                    KCR_sovetsky_opinion_progress = 200
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+    KCR_negotiations_with_the_october_district = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        visible = {
+            has_country_flag = KCR_trading_started
+        }
+
+        cost = 30
+        days_remove = 14
+        days_re_enable = 30
+        fire_only_once = no
+
+        complete_effect = {
+
+            add_to_variable = {
+                KCR_opinion_of_the_october_district = 10
+            }
+
+            add_to_variable = {
+                KCR_october_opinion_progress = 10
+            }
+
+            add_to_variable = {
+                KCR_trading_gui_update = 1
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_opinion_of_the_october_district > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_opinion_of_the_october_district = 100
+                }
+
+                set_variable = {
+                    KCR_october_opinion_progress = 200
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+    KCR_negotiations_with_the_railway_district = {
+
+        icon = GFX_decision_generic_political_pressure
+
+        visible = {
+            has_country_flag = KCR_trading_started
+        }
+
+        cost = 30
+        days_remove = 14
+        days_re_enable = 30
+        fire_only_once = no
+
+        complete_effect = {
+
+            add_to_variable = {
+                KCR_opinion_of_the_railway_district = 10
+            }
+
+            add_to_variable = {
+                KCR_railway_opinion_progress = 10
+            }
+
+            add_to_variable = {
+                KCR_trading_gui_update = 1
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_opinion_of_the_railway_district > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_opinion_of_the_railway_district = 100
+                }
+
+                set_variable = {
+                    KCR_railway_opinion_progress = 200
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

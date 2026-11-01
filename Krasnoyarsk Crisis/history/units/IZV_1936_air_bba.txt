@@ -1,0 +1,641 @@
+air_wings = {
+		369 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	295 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	33 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	311 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	294 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	113 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	22 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	234 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	177 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	102 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	245 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	300 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	362 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	49 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	25 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	254 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	130 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	211 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	51 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	62 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	63 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	159 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	26 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	146 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	29 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	292 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	298 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	222 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	233 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	291 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	185 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	260 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	226 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	198 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	158 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	91 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	287 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	126 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	305 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	367 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	48 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	144 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	231 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	78 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	18 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	54 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	169 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	132 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	141 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	186 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	243 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	142 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	149 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	273 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	68 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	203 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	189 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	223 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	238 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	313 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	120 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	297 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	252 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	81 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	224 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	187 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	66 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	316 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	212 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	28 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	79 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	364 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	164 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	157 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	324 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	59 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	214 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	363 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	90 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	88 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	191 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	325 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	110 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	265 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	336 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	285 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	289 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	216 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	244 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	184 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	156 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	306 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	272 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	232 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	205 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	237 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	165 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	129 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	56 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	1 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	52 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	337 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	349 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	302 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	227 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	104 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	290 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	106 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	173 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	282 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	201 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	38 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	333 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	80 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	145 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	209 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	304 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	220 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	99 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	53 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	109 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	46 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	135 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	27 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	166 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	251 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	261 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	210 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	153 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	163 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	115 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	148 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	175 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	94 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	217 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	155 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	174 = { 								
+		small_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Asirt Mk 1" }
+
+	}
+	317 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	248 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	270 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+	167 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	100 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	334 = { 								
+		medium_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tifaw Mk 1" }
+
+	}
+	2 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	123 = { 								
+		medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+medium_plane_airframe_1 = { owner = "IZV" amount = 50 version_name = "Tazirem Mk 2" }
+
+	}
+	343 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	348 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IZV" amount = 50 version_name = "Azegzar Mk 2" }
+
+	}
+	172 = { 								
+		small_plane_cas_airframe_0 = { owner = "IZV" amount = 50 version_name = "Tazwurant Mk 0" }
+
+	}
+	268 = { 								
+		large_plane_airframe_0 = { owner = "IZV" amount = 50 version_name = "Isli Mk 2" }
+
+	}
+
+
+}

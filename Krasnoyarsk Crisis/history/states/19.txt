@@ -1,0 +1,14 @@
+state={
+	id=19
+	name="STATE_19"
+	provinces={
+		3417 3423 3424 3425 3426 3431 3433 3442 3444 10332 10333 10336 10337 10338 10341 10342 10344 10346 10347 10348 10349 10350 10351 12910 12924 12931 14569 
+	}
+	history={ 
+		owner = OCT 
+		add_core_of = OCT 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

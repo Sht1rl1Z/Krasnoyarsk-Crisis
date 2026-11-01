@@ -1,0 +1,14 @@
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		14819 
+	}
+	history={ 
+		owner = GDR 
+		add_core_of = GDR 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

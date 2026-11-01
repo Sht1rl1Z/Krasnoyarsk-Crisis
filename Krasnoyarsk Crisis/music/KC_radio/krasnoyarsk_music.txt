@@ -1,0 +1,334 @@
+# Krasnoyarsk crisis Music
+
+music_station = "krasnoyarsk_radio"
+
+music = {
+    song = "maintheme"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 1
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Egorbez-kah"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Empire_Bavarian_Affair"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Papa_Po_vode"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Sova_Krutitsya_Zemlya"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Sova_Glavni_geroy"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "KHolodnyjj_zvonok_Mekhanizm"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Kastrichnik_Vorkuta"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Relsy_Dozhd"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Relsy_Tyulpany"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Peremotka_Mojj_strakh"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "BAU_Potancujj_so_mnojj"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Fengshui_idst"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Icarrus_Approve"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Ivan_Dorn_Teleport"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Televizor_Gazprombajjter"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Televizor_sidi_doma"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Chernikovskaya_Hata_Malchik_Moi"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Mumijj_Troll_Vladivostok_2000"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Mumijj_Troll_Leto_bez_interneta"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Lyubje_Soldat"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Lyubje_Ot_Volgi_do_Eniseya"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Lyubje_Za_tebya_Rodinamat"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Nikolajj_Anisimov_Grachi_prileteli"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Viktor_Cojj_Vosmiklassnica"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Viktor_Cojj_Kukushka"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Uma2rman_Kazhetsya"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Mashina_vremeni_Odnazhdy_mir_prognjotsya_pod_nas"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Pavel_Plamenev_Russkijj_ne_pobezhdjon"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Nikolajj_Emelin_Rus"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "MC_Bo_Khan_Dugin"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Visokosnyjj_God_Tikhijj_ogonjok"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}
+music = {
+    song = "Agata_Kristi_Kak_na_vojjne"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 3
+            has_war = no
+        }
+    }
+}

@@ -1,0 +1,184 @@
+ideas = {
+    country = {
+
+        KCR_political_tension_low = {
+            modifier = {
+                stability_factor = -0.02
+                political_power_factor = -0.02
+                consumer_goods_factor = -0.05
+            }
+        }
+
+        KCR_political_tension_medium = {
+            modifier = {
+                stability_factor = -0.05
+                political_power_factor = -0.05
+                consumer_goods_factor = -0.10
+            }
+        }
+
+        KCR_political_tension_high = {
+            modifier = {
+                stability_factor = -0.20
+                political_power_factor = -0.20
+                consumer_goods_factor = -0.20
+            }
+        }
+        KCR_administrative_chaos_1 = {
+            modifier = {
+                stability_factor = -0.05
+                political_power_gain = -0.10
+                production_speed_buildings_factor = -0.05
+            }
+            picture = KCR_administrative_chaos
+        }
+        KCR_administrative_chaos_2 = {
+            modifier = {
+                stability_factor = -0.15
+                political_power_gain = 0.15
+                production_speed_buildings_factor = -0.1
+            }
+            picture = KCR_administrative_chaos
+        }
+        KCR_administrative_legacy = {
+            modifier = {
+                stability_factor = 0.15
+                political_power_gain = 0.1
+                war_support_factor = -0.1
+                consumer_goods_factor = -0.025
+            }
+            #picture = KCR_administrative_chaos
+        }
+        KCR_order_is_above_all_else = {
+            modifier = {
+                stability_factor = 0.05
+                political_power_gain = 0.15
+                war_support_factor = 0.05
+                production_speed_buildings_factor = 0.05
+            }
+            #picture = KCR_administrative_chaos
+        }
+        KCR_a_land_for_its_own_people = {
+            modifier = {
+                stability_factor = -0.1
+                political_power_gain = 0.05
+                war_support_factor = 0.15
+                consumer_goods_factor = -0.05
+            }
+            #picture = KCR_administrative_chaos
+        }
+        KCR_shared_house = {
+            modifier = {
+                war_support_factor = -0.2
+                stability_factor = 0.1
+                political_power_gain = 0.2
+                production_speed_infrastructure_factor = 0.15
+                compliance_growth = 0.01
+            }
+            #picture = KCR_administrative_chaos
+        }
+        KCR_siberian_socialism = {
+            modifier = {
+                stability_factor = 0.05
+                political_power_gain = 0.1
+                war_support_factor = -0.1
+                consumer_goods_factor = -0.075
+                production_speed_buildings_factor = 0.05
+            }
+            #picture = KCR_administrative_chaos
+        }
+        KCR_economic_base_1 = {
+            modifier = {
+                production_speed_buildings_factor = -0.2
+                consumer_goods_factor = 0.35
+                production_factory_efficiency_gain_factor = -0.30
+                production_factory_max_efficiency_factor = -0.40
+            }
+            picture = KCR_economic_base
+        }
+        KCR_economic_base_2 = {
+            modifier = {
+                production_speed_buildings_factor = -0.1
+                consumer_goods_factor = 0.35
+                production_factory_efficiency_gain_factor = -0.15
+                production_factory_max_efficiency_factor = -0.25
+            }
+            picture = KCR_economic_base
+        }
+        KCR_economic_base_3 = {
+            modifier = {
+                consumer_goods_factor = 0.25
+                production_factory_efficiency_gain_factor = -0.05
+                production_factory_max_efficiency_factor = -0.10
+            }
+            picture = KCR_economic_base
+        }
+        KCR_economic_base_4 = {
+            modifier = {
+                production_speed_buildings_factor = 0.10
+                consumer_goods_factor = 0.15
+            }
+        }
+        KCR_economic_small_business = {
+            modifier = {
+                production_speed_buildings_factor = 0.10
+                consumer_goods_factor = -0.05
+                infrastructure_construction_speed_factor = 0.10
+            }
+            picture = KCR_economic_small_business
+        }
+        KCR_economic_large_business = {
+            modifier = {
+                consumer_goods_factor = -0.05
+                production_factory_efficiency_gain_factor = 0.05
+                production_factory_efficiency_gain_factor = 0.10
+                production_factory_max_efficiency_factor = 0.10
+            }
+            picture = KCR_economic_large_business
+        }
+        KCR_communal_bridge = {
+            modifier = {
+                army_attack_factor = -0.3
+                army_defence_factor = 0.35
+                supply_consumption_factor = 0.1
+                max_planning_factor = -0.15
+                org_loss_when_moving = 0.15
+            }
+            #picture = KCR_economic_large_business
+        }
+
+        KCR_reggov_initial_bureaucracy = { 
+            picture = generic_political_reform 
+            modifier = 
+            { 
+                political_power_gain = -0.05 
+                stability_factor = -0.03 
+            } 
+        }
+        KCR_reggov_initial_economy = { picture = generic_industry modifier = { consumer_goods_factor = 0.10 production_speed_buildings_factor = -0.05 } }
+        KCR_reggov_initial_army = { picture = generic_army modifier = { army_org_factor = -0.03 training_time_factor = 0.05 } }
+        KCR_reggov_party_balance = { picture = generic_political_reform modifier = { stability_factor = 0.03 political_power_gain = 0.03 } }
+        KCR_reggov_regional_mandate = { picture = generic_political_reform modifier = { stability_factor = 0.03 war_support_factor = -0.03 } }
+        KCR_reggov_civic_mandate = { picture = generic_political_reform modifier = { stability_factor = 0.08 political_power_gain = 0.03 war_support_factor = -0.02 } }
+        KCR_reggov_technocratic_compact = { picture = generic_political_reform modifier = { research_speed_factor = 0.03 production_speed_buildings_factor = 0.03 political_power_gain = -0.02 } }
+        KCR_reggov_applied_science = { picture = generic_industry modifier = { research_speed_factor = 0.05 production_factory_efficiency_gain_factor = 0.03 } }
+        KCR_reggov_conversion = { picture = generic_industry modifier = { production_speed_buildings_factor = 0.05 industrial_capacity_factory = 0.03 } }
+        KCR_reggov_energy_reserve = { picture = generic_industry modifier = { production_speed_buildings_factor = 0.04 consumer_goods_factor = 0.02 } }
+        KCR_reggov_technical_education = { picture = generic_industry modifier = { production_factory_efficiency_gain_factor = 0.05 research_speed_factor = 0.02 } }
+        KCR_reggov_development_bonds = { picture = generic_industry modifier = { production_speed_buildings_factor = 0.04 consumer_goods_factor = -0.03 } }
+        KCR_reggov_distributed_storage = { picture = generic_industry modifier = { supply_consumption_factor = -0.03 production_speed_buildings_factor = 0.02 } }
+        KCR_reggov_mobile_doctrine = { picture = generic_army modifier = { army_speed_factor = 0.05 army_org_factor = 0.02 } }
+        KCR_reggov_signal_network = { picture = generic_army modifier = { planning_speed = 0.05 initiative_factor = 0.03 } }
+        KCR_reggov_engineer_detachments = { picture = generic_army modifier = { army_defence_factor = 0.03 entrenchment = 0.03 } }
+        KCR_reggov_volunteer_contract = { picture = generic_army modifier = { army_org_factor = 0.04 training_time_factor = -0.03 recruitable_population_factor = 0.01 } }
+        KCR_reggov_territorial_duty = { picture = generic_army modifier = { recruitable_population_factor = 0.04 army_org_factor = -0.02 } }
+        KCR_reggov_training_cycle = { picture = generic_army modifier = { army_org_factor = 0.03 training_time_factor = -0.05 planning_speed = 0.03 } }
+        KCR_reggov_wartime_industry = { picture = generic_industry modifier = { industrial_capacity_factory = 0.05 production_factory_efficiency_gain_factor = 0.03 } }
+        KCR_reggov_border_survey = { picture = generic_intelligence modifier = { army_attack_factor = 0.02 planning_speed = 0.04 } }
+        KCR_reggov_contingency_routes = { picture = generic_army modifier = { supply_consumption_factor = -0.04 army_speed_factor = 0.02 } }
+        KCR_reggov_signal_intercepts = { picture = generic_intelligence modifier = { planning_speed = 0.05 army_attack_factor = 0.02 } }
+        KCR_reggov_evacuation_protocol = { picture = generic_army modifier = { army_defence_factor = 0.04 production_speed_buildings_factor = 0.02 } }
+        KCR_reggov_field_command = { picture = generic_army modifier = { army_org_factor = 0.04 max_planning_factor = 0.03 } }
+        KCR_reggov_northern_line = { picture = generic_army modifier = { army_attack_factor = 0.04 army_defence_factor = 0.05 war_support_factor = 0.05 } }
+    }
+}

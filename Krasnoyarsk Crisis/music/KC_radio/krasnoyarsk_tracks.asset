@@ -1,0 +1,166 @@
+# Krasnoyarsk crisis Music
+music = {
+    	name = "maintheme"
+   	file = "krasnoyarsk_crisis.ogg"
+   	volume = 0.65
+}
+music = {
+    	name = "Egorbez-kah"
+   	file = "egorbez-kah.ogg"
+   	volume = 0.65
+}
+music = {
+	name = "Empire_Bavarian_Affair"
+	file = "Empire-Bavarian_Affair.ogg"
+	volume = 0.65
+}
+music = {
+    	name = "Papa_Po_vode"
+    	file = "Papa-Po_vode.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Sova_Krutitsya_Zemlya"
+    	file = "Sova_Krutitsya_Zemlya.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Sova_Glavni_geroy"
+    	file = "Sova_Glavni_geroy.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "KHolodnyjj_zvonok_Mekhanizm"
+    	file = "KHolodnyjj_zvonok_Mekhanizm.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Kastrichnik_Vorkuta"
+    	file = "Kastrichnik_Vorkuta.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Relsy_Dozhd"
+    	file = "Relsy_Dozhd.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Relsy_Tyulpany"
+    	file = "Relsy_Tyulpany.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Peremotka_Mojj_strakh"
+    	file = "Peremotka_Mojj_strakh.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "BAU_Potancujj_so_mnojj"
+    	file = "BAU_Potancujj_so_mnojj.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Fengshui_idst"
+    	file = "Fengshui_idst.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Icarrus_Approve"
+    	file = "Approve__Mr_Military-Commissar__-parody-cover.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Ivan_Dorn_Teleport"
+    	file = "Ivan_Dorn_-_Teleport.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Televizor_Gazprombajjter"
+    	file = "Televizor_-_Gazprombajjter.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Televizor_sidi_doma"
+    	file = "Televizor_-_sidi_doma.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Chernikovskaya_Hata_Malchik_Moi"
+    	file = "Chernikovskaya_Hata_-_Malchik_Moi.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Mumijj_Troll_Vladivostok_2000"
+    	file = "Mumijj_Troll_-_Vladivostok_2000.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Mumijj_Troll_Leto_bez_interneta"
+    	file = "Mumijj_Troll_-_Leto_bez_interneta.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Lyubje_Soldat"
+    	file = "Lyubje_-_Soldat.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Lyubje_Ot_Volgi_do_Eniseya"
+    	file = "Lyubje_-_Ot_Volgi_do_Eniseya.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Lyubje_Za_tebya_Rodinamat"
+    	file = "Lyubje_-_Za_tebya_Rodinamat.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Nikolajj_Anisimov_Grachi_prileteli"
+    	file = "Nikolajj_Anisimov_-_Grachi_prileteli.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Viktor_Cojj_Vosmiklassnica"
+    	file = "Viktor_Cojj_-_Vosmiklassnica.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Viktor_Cojj_Kukushka"
+    	file = "Viktor_Cojj_-_Kukushka.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Uma2rman_Kazhetsya"
+    	file = "Uma2rman_-_Kazhetsya.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Mashina_vremeni_Odnazhdy_mir_prognjotsya_pod_nas"
+    	file = "Mashina_vremeni_-_Odnazhdy_mir_prognjotsya_pod_nas.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Pavel_Plamenev_Russkijj_ne_pobezhdjon"
+    	file = "Pavel_Plamenev_-_Russkijj_ne_pobezhdjon.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Nikolajj_Emelin_Rus"
+    	file = "Nikolajj_Emelin_-_Rus.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "MC_Bo_Khan_Dugin"
+    	file = "MC_Bo_Khan_-_Dugin.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Visokosnyjj_God_Tikhijj_ogonjok"
+    	file = "Visokosnyjj_God_-_Tikhijj_ogonjok.ogg"
+    	volume = 0.65
+}
+music = {
+    	name = "Agata_Kristi_Kak_na_vojjne"
+    	file = "Agata_Kristi_-_Kak_na_vojjne.ogg"
+    	volume = 0.65
+}

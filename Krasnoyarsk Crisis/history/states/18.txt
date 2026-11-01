@@ -1,0 +1,14 @@
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		5873 5874 5878 5886 5888 5889 5895 5898 7224 7231 7238 7241 7255 7256 10062 10064 10072 
+	}
+	history={ 
+		owner = OCT 
+		add_core_of = OCT 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

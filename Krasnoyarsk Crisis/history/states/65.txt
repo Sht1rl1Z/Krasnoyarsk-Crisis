@@ -1,0 +1,14 @@
+state={
+	id=65
+	name="STATE_65"
+	provinces={
+		10901 10917 10920 10926 10936 12879 12880 12882 12884 12885 12886 12887 12888 12889 12892 12895 12896 12897 12898 12900 12903 
+	}
+	history={ 
+		owner = SVD
+		add_core_of = SVD 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

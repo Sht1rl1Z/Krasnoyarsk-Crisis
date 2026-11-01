@@ -1,0 +1,386 @@
+KCR_party_struggle_category = {
+
+    KCR_voting_day= {
+
+        icon = GFX_decision_generic_diplomatic_action
+
+        activation = {
+            tag = KCR
+            has_country_flag = KCR_party_struggle_started
+            NOT = {
+                has_country_flag = KCR_party_struggle_finished
+            }
+        }
+
+        allowed = {
+            original_tag = KCR
+        }
+
+        available = {
+            always = no
+        }
+
+        is_good = no
+
+        fire_only_once = yes
+
+
+        days_mission_timeout = 263
+
+        timeout_effect = {
+            country_event = KCR.12
+        }
+    }
+    KCR_the_opponent_makes_a_moven = {
+
+        icon = GFX_decision_generic_diplomatic_action
+
+        activation = {
+            tag = KCR
+            has_country_flag = KCR_party_struggle_started
+            NOT = {
+                has_country_flag = KCR_party_struggle_finished
+            }
+        }
+
+        allowed = {
+            original_tag = KCR
+        }
+
+        available = {
+            always = no
+        }
+
+        is_good = no
+
+        selectable_mission = no
+
+        days_mission_timeout = 30
+
+        timeout_effect = {
+
+            hidden_effect = {
+                # KCR_party_governor
+                # KCR_party_nationalists
+                # KCR_party_justice
+                # KCR_party_proletariat
+                random_list = {
+
+                    25 = {
+
+                        add_to_variable = {
+                            KCR_party_governor = -3
+                        }
+                        add_to_variable = {
+                            KCR_party_nationalists = -3
+                        }
+                        add_to_variable = {
+                            KCR_party_proletariat = 3
+                        }
+                        add_to_variable = {
+                            KCR_party_justice = 3
+                        }
+                    }
+                    25 = {
+                        add_to_variable = {
+                            KCR_party_governor = -3
+                        }
+                        add_to_variable = {
+                            KCR_party_nationalists = 3
+                        }
+                        add_to_variable = {
+                            KCR_party_proletariat = -3
+                        }
+                        add_to_variable = {
+                            KCR_party_justice = 3
+                        }
+                    }
+                    25 = {
+                        add_to_variable = {
+                            KCR_party_governor = 3
+                        }
+                        add_to_variable = {
+                            KCR_party_nationalists = 3
+                        }
+                        add_to_variable = {
+                            KCR_party_proletariat = -3
+                        }
+                        add_to_variable = {
+                            KCR_party_justice = -3
+                        }
+                    }
+                    25 = {
+                        add_to_variable = {
+                            KCR_party_governor = 3
+                        }
+                        add_to_variable = {
+                            KCR_party_nationalists = -3
+                        }
+                        add_to_variable = {
+                            KCR_party_proletariat = 3
+                        }
+                        add_to_variable = {
+                            KCR_party_justice = -3
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    KCR_support_governor_party = {
+        visible = {
+            has_country_flag = KCR_party_struggle_started
+
+            NOT = {
+                has_country_flag = KCR_party_struggle_finished
+            }
+        }
+
+        cost = 25
+
+        days_remove = 14
+        days_re_enable = 14
+
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_party_governor = 5
+            }
+            hidden_effect = {
+                add_to_variable = {
+                    KCR_cabinet_tension = 3
+                }
+                random_list = {
+
+                    34 = {
+
+                        add_to_variable = {
+                            KCR_party_nationalists = -5
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            KCR_party_justice = -5
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            KCR_party_proletariat = -5
+                        }
+                    }
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_party_governor > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_party_governor = 100
+                }
+            }
+        }
+    }
+
+    KCR_support_nationalists = {
+        visible = {
+            has_country_flag = KCR_party_struggle_started
+
+            NOT = {
+                has_country_flag = KCR_party_struggle_finished
+            }
+
+            check_variable = {
+                KCR_party_nationalists < 100
+            }
+        }
+
+
+        cost = 25
+
+        days_remove = 14
+        days_re_enable = 14
+
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_party_nationalists = 5
+            }
+
+            hidden_effect = {
+                add_to_variable = {
+                    KCR_cabinet_tension = 3
+                }
+                random_list = {
+
+                    34 = {
+
+                        add_to_variable = {
+                            KCR_party_governor = -5
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            KCR_party_justice = -5
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            KCR_party_proletariat = -5
+                        }
+                    }
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_party_nationalists > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_party_nationalists = 100
+                }
+            }
+        }
+    }
+
+    KCR_support_justice_party = {
+        visible = {
+            has_country_flag = KCR_party_struggle_started
+
+            NOT = {
+                has_country_flag = KCR_party_struggle_finished
+            }
+
+            check_variable = {
+                KCR_party_justice < 100
+            }
+        }
+
+        cost = 25
+
+        days_remove = 14
+        days_re_enable = 14
+
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_party_justice = 5
+            }
+
+            hidden_effect = {
+                add_to_variable = {
+                    KCR_cabinet_tension = 3
+                }
+                random_list = {
+
+                    34 = {
+
+                        add_to_variable = {
+                            KCR_party_governor = -5
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            KCR_party_nationalists = -5
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            KCR_party_proletariat = -5
+                        }
+                    }
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_party_justice > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_party_justice = 100
+                }
+            }
+        }
+    }
+
+    KCR_support_proletariat = {
+        visible = {
+            has_country_flag = KCR_party_struggle_started
+
+            NOT = {
+                has_country_flag = KCR_party_struggle_finished
+            }
+
+            check_variable = {
+                KCR_party_proletariat < 100
+            }
+        }
+
+        cost = 25
+
+        days_remove = 14
+        days_re_enable = 14
+
+        fire_only_once = no
+
+        remove_effect = {
+
+            add_to_variable = {
+                KCR_party_proletariat = 5
+            }
+
+            hidden_effect = {
+                add_to_variable = {
+                    KCR_cabinet_tension = 3
+                }
+                random_list = {
+
+                    34 = {
+
+                        add_to_variable = {
+                            KCR_party_governor = -5
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            KCR_party_justice = -5
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            KCR_party_governor = -5
+                        }
+                    }
+                }
+            }
+
+            if = {
+                limit = {
+                    check_variable = {
+                        KCR_party_proletariat > 100
+                    }
+                }
+
+                set_variable = {
+                    KCR_party_proletariat = 100
+                }
+            }
+        }
+    }
+}

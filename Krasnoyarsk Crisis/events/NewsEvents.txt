@@ -1,0 +1,22 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+#oil_problem
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_KCR_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+	}
+}
+
