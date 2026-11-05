@@ -1,0 +1,17 @@
+KC_com_bridge = {
+    enable = {
+        always = yes
+    }
+
+    icon = GFX_KC_com_bridge
+
+    # Бонусы 
+    army_defence_factor = 0.25
+    army_morale_factor = 0.15
+    army_speed_factor = 0.1
+
+    # Дебаффы 
+    cas_damage_reduction = -0.2
+    army_attack_factor = -0.2
+    combat_width_factor = 0.2
+}

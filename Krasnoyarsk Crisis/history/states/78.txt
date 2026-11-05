@@ -1,14 +1,20 @@
 state={
-	id=78
-	name="STATE_78"
-	provinces={
-		2582 
-	}
-	history={ 
-		owner = KCR 
-		add_core_of = KCR 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+    id=78
+    name="STATE_78"
+
+    provinces={
+        2582
+    }
+
+    history={
+        owner = KCR
+        add_core_of = KCR
+        add_dynamic_modifier = {
+            modifier = KC_com_bridge
+        }
+    }
+
+    manpower=0
+    buildings_max_level_factor=1
+    local_supplies=0
 }
