@@ -16,7 +16,11 @@ spriteTypes = {
         name = "GFX_idea_KCR_economic_large_business"
         texturefile = "gfx/interface/ideas/KCR_economic_large_business.png"
     }
-
+    spriteType = {
+        name = "GFX_KC_com_bridge"
+        texturefile = "gfx/interface/ideas/state_modifiers/KC_com_bridge.png"
+        legacy_lazy_load = no
+    }
 
 	#######################
 	####  PLACEHOLDER  ####

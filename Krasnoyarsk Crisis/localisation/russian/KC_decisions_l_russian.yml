@@ -1,7 +1,10 @@
 ﻿l_russian:
 
 KCR_cabinet_conflict_category:0 "БОРЬБА КАБИНЕТОВ"
-KCR_cabinet_conflict_category_desc:0 "Влияние мэрии: Мэрия и краевая администрация продолжают борьбу за контроль над Центральным районом."
+
+KCR_governor_textbox_label:0 "§Y[?KCR_governor_influence]"
+KCR_mayor_textbox_label:0 "§Y[?KCR_mayor_influence]"
+KCR_cabinet_tension_label:0 "§Y[?KCR_cabinet_tension]"
 
 KCR_reduce_tension:0 "Снижение напряжённости"
 KCR_reduce_tension_desc:0 "Напряжённость между мэрией и краевой администрацией постепенно снижается сама по себе. Если противостояние не будет дополнительно обостряться, стороны будут постепенно отходить от открытого конфликта.\n\n§YЭффект:§!\n§G-2§! напряжённости кабинетов каждый месяц.\n\n§YСтатус:§! Постоянное действие до завершения фокуса §Y«Новый порядок»§!."
